@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Surveillance Grid</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background:
+                radial-gradient(circle at 15% 80%, rgba(95, 0, 255, 0.25), transparent 30%),
+                radial-gradient(circle at 85% 20%, rgba(0, 200, 255, 0.18), transparent 30%),
+                linear-gradient(135deg, #02051c, #050936 50%, #09024a);
+            color: #dff8ff;
+            font-family: "Rajdhani", sans-serif;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(0, 220, 255, 0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 220, 255, 0.025) 1px, transparent 1px);
+            background-size: 45px 45px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .topbar {
+            height: 105px;
+            padding: 18px 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid rgba(0, 220, 255, 0.35);
+            border-radius: 0 0 18px 18px;
+            background: linear-gradient(90deg, rgba(3, 10, 50, 0.95), rgba(11, 7, 70, 0.85));
+            box-shadow: 0 0 25px rgba(0, 200, 255, 0.08), inset 0 0 30px rgba(0, 100, 255, 0.06);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .brand-icon {
+            width: 62px;
+            height: 62px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #00eaff;
+            border-radius: 15px;
+            color: #00eaff;
+            font-size: 27px;
+            box-shadow: 0 0 15px rgba(0, 234, 255, 0.6), inset 0 0 15px rgba(0, 234, 255, 0.15);
+        }
+
+        .brand h1 {
+            font-family: "Orbitron", sans-serif;
+            font-size: 25px;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, #ff27c7, #00eaff, #4f8cff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .brand p {
+            margin-top: 5px;
+            color: #cc63ff;
+            letter-spacing: 4px;
+            font-size: 12px;
+        }
+
+        .top-right {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+        }
+
+        .system-status {
+            color: #00ffbd;
+            font-family: "Orbitron", sans-serif;
+            font-size: 13px;
+        }
+
+        .system-status span {
+            display: inline-block;
+            width: 9px;
+            height: 9px;
+            margin-right: 8px;
+            border-radius: 50%;
+            background: #00ffbd;
+            box-shadow: 0 0 12px #00ffbd;
+        }
+
+        .admin {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 225px 1fr;
+            gap: 18px;
+            padding: 25px;
+        }
+
+        .sidebar {
+            min-height: calc(100vh - 155px);
+            padding: 15px;
+            border: 1px solid rgba(0, 200, 255, 0.4);
+            border-radius: 15px;
+            background: linear-gradient(180deg, rgba(7, 17, 67, 0.85), rgba(5, 5, 42, 0.8));
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-item {
+            height: 56px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 17px;
+            padding: 0 17px;
+            border-radius: 10px;
+            color: #b7d7ef;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.25s;
+        }
+
+        .nav-item i {
+            width: 25px;
+            color: #00dfff;
+            font-size: 19px;
+        }
+
+        .nav-item.active {
+            color: white;
+            background: linear-gradient(90deg, #7a20ff, #2537ff);
+            box-shadow: 0 0 20px rgba(80, 50, 255, 0.5);
+        }
+
+        .badge {
+            margin-left: auto;
+            min-width: 28px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: #ff249c;
+            color: white;
+            box-shadow: 0 0 15px #ff249c;
+        }
+
+        .sidebar-bottom {
+            margin-top: auto;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .sidebar-bottom .tower {
+            font-size: 65px;
+            color: #4e55ff;
+            text-shadow: 0 0 25px #4e55ff;
+        }
+
+        .sidebar-bottom h3 {
+            margin-top: 20px;
+            color: #00dfff;
+            font-family: "Orbitron";
+            font-size: 13px;
+        }
+
+        .content {
+            min-width: 0;
+        }
+
+        .breadcrumb {
+            height: 67px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 18px;
+            border-radius: 12px;
+            background: rgba(15, 12, 80, 0.65);
+            border: 1px solid rgba(0, 220, 255, 0.25);
+            margin-bottom: 25px;
+        }
+
+        .breadcrumb-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: #8ddff8;
+            font-family: "Orbitron";
+            font-size: 14px;
+        }
+
+        .breadcrumb-left strong {
+            color: #00eaff;
+        }
+
+        .gemini {
+            padding: 12px 22px;
+            border: 1px solid #9d27ff;
+            border-radius: 12px;
+            background: rgba(110, 0, 255, 0.12);
+            color: white;
+            cursor: pointer;
+            box-shadow: 0 0 15px rgba(150, 0, 255, 0.2);
+        }
+
+        .hud-title {
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border: 1px solid #00eaff;
+            border-radius: 14px;
+            background: linear-gradient(90deg, rgba(0, 210, 255, 0.08), rgba(20, 30, 120, 0.15));
+            margin-bottom: 25px;
+        }
+
+        .hud-icon {
+            width: 55px;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid #00eaff;
+            border-radius: 50%;
+            color: #00eaff;
+            font-size: 24px;
+        }
+
+        .hud-title h2 {
+            font-family: "Orbitron";
+            font-size: 25px;
+        }
+
+        .hud-title h2 span {
+            color: #00eaff;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 0.85fr 1.35fr;
+            gap: 20px;
+        }
+
+        .card {
+            min-height: 510px;
+            padding: 22px;
+            border-radius: 14px;
+            background: linear-gradient(145deg, rgba(8, 18, 75, 0.92), rgba(8, 8, 54, 0.85));
+            border: 1px solid rgba(0, 220, 255, 0.55);
+        }
+
+        .card.threat {
+            border-color: rgba(210, 35, 255, 0.7);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            padding-bottom: 18px;
+            border-bottom: 1px solid rgba(0, 220, 255, 0.18);
+        }
+
+        .card-header i {
+            color: #00eaff;
+            font-size: 22px;
+        }
+
+        .card-header h2 {
+            font-family: "Orbitron";
+            font-size: 18px;
+        }
+
+        .telemetry {
+            margin-top: 20px;
+        }
+
+        .telemetry-row {
+            min-height: 43px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .label {
+            color: #a6bfd8;
+        }
+
+        .value {
+            color: #00eaff;
+            text-align: right;
+        }
+
+        .danger {
+            padding: 7px 13px;
+            border-radius: 20px;
+            color: #ff5fae;
+            border: 1px solid #ff2799;
+            background: rgba(255, 20, 140, 0.08);
+            font-size: 12px;
+        }
+
+        .section-title {
+            margin-top: 27px;
+            padding-top: 18px;
+            border-top: 1px solid rgba(0, 220, 255, 0.18);
+            color: #00eaff;
+            font-family: "Orbitron";
+            font-size: 15px;
+        }
+
+        .camera {
+            margin-top: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 5px;
+            color: #d3e7f4;
+            font-size: 16px;
+        }
+
+        .online {
+            padding: 5px 13px;
+            border: 1px solid #00e8bd;
+            border-radius: 20px;
+            color: #00ffcb;
+            background: rgba(0, 255, 190, 0.07);
+            font-size: 12px;
+        }
+
+        .threat-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .sync {
+            padding: 10px 17px;
+            border: 1px solid #00eaff;
+            border-radius: 10px;
+            background: rgba(0, 220, 255, 0.05);
+            color: #00eaff;
+            cursor: pointer;
+        }
+
+        .feed-name {
+            margin: 20px 0;
+            color: #4de6ff;
+            font-family: "Orbitron";
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="topbar">
+    <div class="brand">
+        <div class="brand-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <div>
+            <h1>BORDER SURVEILLANCE GRID</h1>
+            <p>AI POWERED BORDER MONITORING SYSTEM</p>
+        </div>
+    </div>
+    <div class="top-right">
+        <div class="system-status">
+            <span></span> SYSTEM ONLINE
+        </div>
+        <div class="admin">
+            <i class="fa-solid fa-user"></i> Admin
+        </div>
+    </div>
+</header>
+
+<div class="layout">
+    <aside class="sidebar">
+        <div class="nav-item active"><i class="fa-solid fa-house"></i> Dashboard</div>
+        <div class="nav-item"><i class="fa-solid fa-video"></i> Live Feed</div>
+        <div class="nav-item"><i class="fa-solid fa-map"></i> Map View</div>
+        <div class="nav-item"><i class="fa-solid fa-triangle-exclamation"></i> Alerts <div class="badge">3</div></div>
+        <div class="sidebar-bottom">
+            <div class="tower"><i class="fa-solid fa-broadcast-tower"></i></div>
+            <h3>SAFER BORDERS</h3>
+        </div>
+    </aside>
+
+    <main class="content">
+        <div class="breadcrumb">
+            <div class="breadcrumb-left"><i class="fa-solid fa-house"></i> / HUD / <strong>BORDER-SURVEILLANCE-GRID</strong></div>
+            <div class="gemini"><i class="fa-solid fa-wand-magic-sparkles"></i> Ask Gemini</div>
+        </div>
+
+        <div class="hud-title">
+            <div class="hud-icon"><i class="fa-solid fa-globe"></i></div>
+            <h2>HUD // <span>BORDER-SURVEILLANCE-GRID</span></h2>
+        </div>
+
+        <div class="dashboard-grid">
+            <!-- Left Card: System Telemetry & Camera Modes -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>SYSTEM TELEMETRY</h2>
+                </div>
+
+                <div class="telemetry">
+                    <div class="telemetry-row">
+                        <span class="label">AI MODEL:</span>
+                        <span class="value" id="val-ai-model">YOLOv8n (Optimized)</span>
+                    </div>
+                    <div class="telemetry-row">
+                        <span class="label">TRACKER ENGINE:</span>
+                        <span class="value" id="val-tracker">ByteTrack Active</span>
+                    </div>
+                    <div class="telemetry-row">
+                        <span class="label">PRIMARY FEED:</span>
+                        <span class="value" id="val-feed">CAM-01 (1920x1080)</span>
+                    </div>
+                    <div class="telemetry-row">
+                        <span class="label">DATABASE PROTOCOL:</span>
+                        <span class="value" id="val-db">SQLite / BaaSAPI</span>
+                    </div>
+                    <div class="telemetry-row">
+                        <span class="label">ZONE SECURITY:</span>
+                        <span class="value danger" id="val-security">RESTRICTED BOUNDARY ARMED</span>
+                    </div>
+                </div>
+
+                <div class="section-title">CAMERA MODES</div>
+                <div class="camera"><span>CAM-01 (Sector Alpha)</span><span class="online">ONLINE</span></div>
+                <div class="camera"><span>CAM-02 (Sector Beta)</span><span class="online">ONLINE</span></div>
+            </div>
+
+            <!-- Right Card: Threat Detection Stream & Live YOLOv8 Video Feed -->
+            <div class="card threat">
+                <div class="card-header threat-header">
+                    <div style="display: flex; align-items: center; gap: 13px;">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <h2>THREAT DETECTION STREAM</h2>
+                    </div>
+                    <div class="sync"><i class="fa-solid fa-rotate"></i> FORCE SYNC</div>
+                </div>
+
+                <div class="feed-name">BORDER-SURVEILLANCE FEED #1</div>
+
+                <!-- YOLOv8 Live Video Stream Image Tag -->
+                <div style="margin-top: 15px; text-align: center;">
+                    <img src="http://127.0.0.1:8000/video_feed" alt="YOLOv8 Live Stream" style="width: 100%; max-height: 320px; object-fit: cover; border-radius: 10px; border: 1px solid rgba(0, 220, 255, 0.4);" />
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- JavaScript to fetch live telemetry from FastAPI backend -->
+<script>
+    async function updateTelemetry() {
+        try {
+            const response = await fetch('http://127.0.0.1:8000/api/telemetry');
+            const data = await response.json();
+
+            document.getElementById('val-ai-model').textContent = data.ai_model;
+            document.getElementById('val-tracker').textContent = data.tracker_engine;
+            document.getElementById('val-feed').textContent = data.primary_feed;
+            document.getElementById('val-db').textContent = data.database_protocol;
+            document.getElementById('val-security').textContent = data.zone_security;
+        } catch (error) {
+            console.error("Failed to connect to backend telemetry stream:", error);
+        }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        updateTelemetry();
+        setInterval(updateTelemetry, 3000);
+    });
+</script>
+
+</body>
+</html>
