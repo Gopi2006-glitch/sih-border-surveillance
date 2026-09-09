@@ -1,23 +1,60 @@
-// Function to fetch telemetry and update the dashboard UI
-async function updateDashboardData() {
+// Point directly to the unreviewed alerts endpoint
+const API_URL = "http://127.0.0.1:8001/api/alerts/unreviewed";
+
+async function fetchAlerts() {
     try {
-        const response = await http://127.0.0.1:8000/api/telemetry;
-        const data = await response.json();
+        const response = await fetch(API_URL);
+        if (!response.ok) return;
+        const alerts = await response.json();
+        
+        const tbody = document.getElementById("alert-tbody");
+        if (!tbody) return;
 
-        // Update telemetry values dynamically based on element classes or IDs
-        // Tip: Add id="ai-model-val", id="tracker-val", etc. to your HTML spans for easy targeting
-        console.log("Telemetry updated:", data);
+        tbody.innerHTML = "";
 
-        // Example: Updating camera statuses dynamically if container exists
-        // You can loop through data.cameras and render online/offline status pills here.
+        if (alerts.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: #64748b; padding: 16px;">No unreviewed breaches. All clear!</td></tr>`;
+            return;
+        }
 
-    } catch (error) {
-        console.error("Failed to sync with backend telemetry stream:", error);
+        alerts.forEach(alert => {
+            const tr = document.createElement("tr");
+
+            tr.innerHTML = `
+                <td>#${alert.id}</td>
+                <td><span style="background: #334155; padding: 2px 6px; border-radius: 4px; font-size: 0.8rem;">${alert.camera_id}</span></td>
+                <td>${alert.timestamp}</td>
+                <td style="color: #f87171; font-weight: 600;">${alert.event_type}</td>
+                <td>Track ID: ${alert.track_id}</td>
+                <td>
+                    <span class="badge-unreviewed">
+                        ${alert.status}
+                    </span>
+                </td>
+                <td>
+                    <button class="btn-ack" onclick="acknowledgeAlert(${alert.id})">Acknowledge</button>
+                </td>
+            `;
+            tbody.appendChild(tr);
+        });
+    } catch (err) {
+        console.error("Error connecting to backend API:", err);
     }
 }
 
-// Poll the backend every 3 seconds for real-time monitoring updates
-setInterval(updateDashboardData, 3000);
+async function acknowledgeAlert(id) {
+    try {
+        const res = await fetch(`http://127.0.0.1:8001/api/alerts/${id}/acknowledge`, {
+            method: "PATCH"
+        });
+        if (res.ok) {
+            // Immediately refresh list to drop the acknowledged item
+            fetchAlerts();
+        }
+    } catch (err) {
+        console.error("Failed to acknowledge alert:", err);
+    }
+}
 
-// Initial fetch on page load
-window.addEventListener('DOMContentLoaded', updateDashboardData);
+fetchAlerts();
+setInterval(fetchAlerts, 2000);
