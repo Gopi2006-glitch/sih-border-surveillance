@@ -1,0 +1,501 @@
+id,cam_id,sector,label,confidence,severity,timestamp,thumbnail_path,status,created_at,track_id
+2234,CAM-04,Sector B,Person #358 (LATERAL [Westbound]),0.68,High,13:18:49,cam_4_id358_ae25.jpg,Pending,2026-09-10T13:18:49.920421,b'f\x01\x00\x00\x00\x00\x00\x00'
+2233,CAM-04,Sector B,Person #401 (LATERAL [Westbound]),0.77,High,13:18:49,cam_4_id401_1e31.jpg,Pending,2026-09-10T13:18:49.915900,b'\x91\x01\x00\x00\x00\x00\x00\x00'
+2232,CAM-04,Sector B,Person #358 (Stationary),0.67,High,13:18:39,cam_4_id358_8f7e.jpg,Pending,2026-09-10T13:18:39.899425,b'f\x01\x00\x00\x00\x00\x00\x00'
+2231,CAM-04,Sector B,Person #401 (Stationary),0.77,High,13:18:39,cam_4_id401_bfda.jpg,Pending,2026-09-10T13:18:39.891982,b'\x91\x01\x00\x00\x00\x00\x00\x00'
+2230,CAM-04,Sector B,Person #401 (Stationary),0.77,High,13:18:37,cam_4_id401_f4e6.jpg,Pending,2026-09-10T13:18:37.521394,b'\x91\x01\x00\x00\x00\x00\x00\x00'
+2229,CAM-04,Sector B,Person #358 (Stationary),0.67,High,13:18:37,cam_4_id358_0f09.jpg,Pending,2026-09-10T13:18:37.515001,b'f\x01\x00\x00\x00\x00\x00\x00'
+2228,CAM-01,Sector A,Person #1 (Stationary),0.36,High,13:18:34,cam_1_id1_f349.jpg,Pending,2026-09-10T13:18:34.673961,1
+2227,CAM-04,Sector B,Person #358 (Stationary),0.67,High,13:18:34,cam_4_id358_c6b4.jpg,Pending,2026-09-10T13:18:34.095965,b'f\x01\x00\x00\x00\x00\x00\x00'
+2226,CAM-04,Sector B,Person #401 (Stationary),0.77,High,13:18:34,cam_4_id401_3cb9.jpg,Pending,2026-09-10T13:18:34.089476,b'\x91\x01\x00\x00\x00\x00\x00\x00'
+2225,CAM-04,Sector B,Person #401 (Stationary),0.8,High,13:18:33,cam_4_id401_515f.jpg,Pending,2026-09-10T13:18:33.912016,b'\x91\x01\x00\x00\x00\x00\x00\x00'
+2224,CAM-01,Sector A,Person #1 (Stationary),0.36,High,13:18:33,cam_1_id1_69bf.jpg,Pending,2026-09-10T13:18:33.108639,1
+2223,CAM-04,Sector B,Person #358 (Stationary),0.61,High,13:18:32,cam_4_id358_024e.jpg,Pending,2026-09-10T13:18:32.887126,b'f\x01\x00\x00\x00\x00\x00\x00'
+2222,CAM-04,Sector B,Person #358 (Stationary),0.73,High,13:18:32,cam_4_id358_3e76.jpg,Pending,2026-09-10T13:18:32.725942,b'f\x01\x00\x00\x00\x00\x00\x00'
+2221,CAM-04,Sector B,Person #2 (Stationary),0.77,High,13:18:32,cam_4_id2_f026.jpg,Pending,2026-09-10T13:18:32.683338,b'\x02\x00\x00\x00\x00\x00\x00\x00'
+2220,CAM-01,Sector A,Person #2 (Stationary),0.46,High,13:18:31,cam_1_id2_740f.jpg,Pending,2026-09-10T13:18:31.431094,2
+2219,CAM-01,Sector A,Person #1 (Stationary),0.36,High,13:18:25,cam_1_id1_f4cd.jpg,Pending,2026-09-10T13:18:25.533034,1
+2218,CAM-04,Sector B,Person #6 (Stationary),0.5,High,13:18:25,cam_4_id6_f7fa.jpg,Pending,2026-09-10T13:18:25.258063,6
+2217,CAM-04,Sector B,Person #5 (Stationary),0.61,High,13:18:24,cam_4_id5_b31a.jpg,Pending,2026-09-10T13:18:24.983598,5
+2216,CAM-04,Sector B,Person #3 (Stationary),0.66,High,13:18:24,cam_4_id3_8548.jpg,Pending,2026-09-10T13:18:24.981084,3
+2215,CAM-04,Sector B,Person #2 (Stationary),0.67,High,13:18:24,cam_4_id2_9100.jpg,Pending,2026-09-10T13:18:24.849768,2
+2214,CAM-04,Sector B,Person #1 (Stationary),0.77,High,13:18:24,cam_4_id1_704e.jpg,Pending,2026-09-10T13:18:24.846689,1
+2213,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.54,High,13:18:19,cam_1_id1_3ab2.jpg,Pending,2026-09-10T13:18:19.897810,1
+2212,CAM-04,Sector B,Person #1 (INBOUND [Approaching]),0.86,High,13:18:14,cam_4_id1_b312.jpg,Pending,2026-09-10T13:18:14.468291,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2211,CAM-01,Sector A,Person #8379 (Stationary),0.36,High,13:18:11,cam_1_id8379_f0a8.jpg,Pending,2026-09-10T13:18:11.780400,b'\xbb \x00\x00\x00\x00\x00\x00'
+2210,CAM-01,Sector A,Person #2 (LATERAL [Westbound]),0.46,High,13:18:11,cam_1_id2_012c.jpg,Pending,2026-09-10T13:18:11.210620,2
+2209,CAM-01,Sector A,Person #1 (LATERAL [Westbound]),0.46,High,13:18:09,cam_1_id1_27b3.jpg,Pending,2026-09-10T13:18:09.800911,1
+2208,CAM-04,Sector B,Person #1 (LATERAL [Eastbound]),0.84,High,13:18:04,cam_4_id1_53b3.jpg,Pending,2026-09-10T13:18:04.436438,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2207,CAM-01,Sector A,Person #2 (LATERAL [Eastbound]),0.35,High,13:17:55,cam_1_id2_a011.jpg,Pending,2026-09-10T13:17:55.920411,2
+2206,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.36,High,13:17:55,cam_1_id1_bb19.jpg,Pending,2026-09-10T13:17:55.572294,1
+2205,CAM-04,Sector B,Person #1 (LATERAL [Westbound]),0.81,High,13:17:54,cam_4_id1_9023.jpg,Pending,2026-09-10T13:17:54.362486,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2204,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.62,High,13:17:45,cam_1_id1_70c4.jpg,Pending,2026-09-10T13:17:45.344489,1
+2203,CAM-04,Sector B,Person #1 (Stationary),0.82,High,13:17:44,cam_4_id1_f43b.jpg,Pending,2026-09-10T13:17:44.356130,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2202,CAM-01,Sector A,Person #2 (LATERAL [Eastbound]),0.49,High,13:17:43,cam_1_id2_8409.jpg,Pending,2026-09-10T13:17:43.501626,2
+2201,CAM-04,Sector B,Person #6308 (INBOUND [Approaching]),0.37,High,13:17:39,cam_4_id6308_cbda.jpg,Pending,2026-09-10T13:17:39.401278,b'\xa4\x18\x00\x00\x00\x00\x00\x00'
+2200,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.63,High,13:17:35,cam_1_id1_e962.jpg,Pending,2026-09-10T13:17:35.274315,1
+2199,CAM-04,Sector B,Person #1 (LATERAL [Eastbound]),0.72,High,13:17:34,cam_4_id1_860a.jpg,Pending,2026-09-10T13:17:34.350669,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2198,CAM-01,Sector A,Person #2 (LATERAL [Westbound]),0.46,High,13:17:32,cam_1_id2_205f.jpg,Pending,2026-09-10T13:17:32.826278,2
+2197,CAM-04,Sector B,Person #6308 (INBOUND [Approaching]),0.75,High,13:17:29,cam_4_id6308_fd8d.jpg,Pending,2026-09-10T13:17:29.374100,b'\xa4\x18\x00\x00\x00\x00\x00\x00'
+2196,CAM-01,Sector A,Person #1 (LATERAL [Westbound]),0.36,High,13:17:25,cam_1_id1_91ee.jpg,Pending,2026-09-10T13:17:25.107319,1
+2195,CAM-04,Sector B,Person #1 (OUTBOUND [Retreating]),0.77,High,13:17:24,cam_4_id1_908b.jpg,Pending,2026-09-10T13:17:24.239481,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2194,CAM-04,Sector B,Person #6308 (Stationary),0.77,High,13:17:19,cam_4_id6308_7e6d.jpg,Pending,2026-09-10T13:17:19.309520,b'\xa4\x18\x00\x00\x00\x00\x00\x00'
+2193,CAM-04,Sector B,Person #1 (LATERAL [Eastbound]),0.72,High,13:17:14,cam_4_id1_9e57.jpg,Pending,2026-09-10T13:17:14.130664,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2192,CAM-01,Sector A,Person #2 (OUTBOUND [Retreating]),0.36,High,13:17:10,cam_1_id2_7926.jpg,Pending,2026-09-10T13:17:10.627873,2
+2191,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.69,High,13:17:07,cam_1_id1_4baf.jpg,Pending,2026-09-10T13:17:07.138899,1
+2190,CAM-04,Sector B,Person #1 (LATERAL [Westbound]),0.85,High,13:17:04,cam_4_id1_57ad.jpg,Pending,2026-09-10T13:17:04.082524,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2189,CAM-01,Sector A,Person #2 (LATERAL [Eastbound]),0.48,High,13:17:00,cam_1_id2_a77e.jpg,Pending,2026-09-10T13:17:00.218995,2
+2188,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.35,High,13:16:57,cam_1_id1_30e3.jpg,Pending,2026-09-10T13:16:57.101463,1
+2187,CAM-04,Sector B,Person #1 (LATERAL [Eastbound]),0.85,High,13:16:54,cam_4_id1_ebbe.jpg,Pending,2026-09-10T13:16:54.047423,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2186,CAM-01,Sector A,Person #4683 (Stationary),0.71,High,13:16:47,cam_1_id4683_9b4c.jpg,Pending,2026-09-10T13:16:47.788807,b'K\x12\x00\x00\x00\x00\x00\x00'
+2185,CAM-01,Sector A,Person #1 (LATERAL [Westbound]),0.46,High,13:16:47,cam_1_id1_df9d.jpg,Pending,2026-09-10T13:16:47.062420,1
+2184,CAM-04,Sector B,Person #1 (Stationary),0.78,High,13:16:43,cam_4_id1_80aa.jpg,Pending,2026-09-10T13:16:43.945265,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2183,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.48,High,13:16:35,cam_1_id1_a854.jpg,Pending,2026-09-10T13:16:35.765874,1
+2182,CAM-01,Sector A,Person #2 (Stationary),0.35,High,13:16:34,cam_1_id2_2363.jpg,Pending,2026-09-10T13:16:34.823865,2
+2181,CAM-04,Sector B,Person #1 (INBOUND [Approaching]),0.77,High,13:16:33,cam_4_id1_705a.jpg,Pending,2026-09-10T13:16:33.868530,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2180,CAM-01,Sector A,Person #3874 (Stationary),0.62,High,13:16:31,cam_1_id3874_3b3b.jpg,Pending,2026-09-10T13:16:31.964471,"b'""\x0f\x00\x00\x00\x00\x00\x00'"
+2179,CAM-04,Sector B,Person #3089 (LATERAL [Eastbound]),0.64,High,13:16:27,cam_4_id3089_ca61.jpg,Pending,2026-09-10T13:16:27.199509,b'\x11\x0c\x00\x00\x00\x00\x00\x00'
+2178,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.59,High,13:16:25,cam_1_id1_a208.jpg,Pending,2026-09-10T13:16:25.750049,1
+2177,CAM-01,Sector A,Person #2 (Stationary),0.44,High,13:16:24,cam_1_id2_0d9f.jpg,Pending,2026-09-10T13:16:24.306278,2
+2176,CAM-04,Sector B,Person #1 (LATERAL [Westbound]),0.88,High,13:16:23,cam_4_id1_d97c.jpg,Pending,2026-09-10T13:16:23.903225,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2175,CAM-01,Sector A,Person #3474 (Stationary),0.4,High,13:16:19,cam_1_id3474_6b20.jpg,Pending,2026-09-10T13:16:19.429782,b'\x92\r\x00\x00\x00\x00\x00\x00'
+2174,CAM-04,Sector B,Person #3089 (OUTBOUND [Retreating]),0.65,High,13:16:17,cam_4_id3089_0a79.jpg,Pending,2026-09-10T13:16:17.274754,b'\x11\x0c\x00\x00\x00\x00\x00\x00'
+2173,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.67,High,13:16:15,cam_1_id1_2712.jpg,Pending,2026-09-10T13:16:15.446795,1
+2172,CAM-01,Sector A,Person #2 (Stationary),0.46,High,13:16:14,cam_1_id2_b8b4.jpg,Pending,2026-09-10T13:16:14.225989,2
+2171,CAM-04,Sector B,Person #1 (OUTBOUND [Retreating]),0.77,High,13:16:13,cam_4_id1_3631.jpg,Pending,2026-09-10T13:16:13.895273,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2170,CAM-01,Sector A,Person #3234 (Stationary),0.58,High,13:16:11,cam_1_id3234_0a3f.jpg,Pending,2026-09-10T13:16:11.082424,b'\xa2\x0c\x00\x00\x00\x00\x00\x00'
+2169,CAM-04,Sector B,Person #3089 (Stationary),0.71,High,13:16:07,cam_4_id3089_0851.jpg,Pending,2026-09-10T13:16:07.044239,b'\x11\x0c\x00\x00\x00\x00\x00\x00'
+2168,CAM-01,Sector A,Person #1 (LATERAL [Westbound]),0.36,High,13:16:05,cam_1_id1_8ead.jpg,Pending,2026-09-10T13:16:05.458370,1
+2167,CAM-04,Sector B,Person #1 (INBOUND [Approaching]),0.71,High,13:16:03,cam_4_id1_6f37.jpg,Pending,2026-09-10T13:16:03.792601,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2166,CAM-04,Sector B,Person #2677 (INBOUND [Approaching]),0.49,High,13:15:58,cam_4_id2677_cd86.jpg,Pending,2026-09-10T13:15:58.891263,b'u\n\x00\x00\x00\x00\x00\x00'
+2165,CAM-04,Sector B,Person #2679 (Stationary),0.62,High,13:15:56,cam_4_id2679_a8d7.jpg,Pending,2026-09-10T13:15:56.318015,b'w\n\x00\x00\x00\x00\x00\x00'
+2164,CAM-04,Sector B,Person #1 (INBOUND [Approaching]),0.78,High,13:15:53,cam_4_id1_7b3f.jpg,Pending,2026-09-10T13:15:53.708360,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2163,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.42,High,13:15:52,cam_1_id1_ceb6.jpg,Pending,2026-09-10T13:15:52.964348,1
+2162,CAM-01,Sector A,Person #2 (OUTBOUND [Retreating]),0.36,High,13:15:50,cam_1_id2_75fa.jpg,Pending,2026-09-10T13:15:50.935962,2
+2161,CAM-04,Sector B,Person #2171 (LATERAL [Westbound]),0.54,High,13:15:46,cam_4_id2171_c347.jpg,Pending,2026-09-10T13:15:46.101868,b'{\x08\x00\x00\x00\x00\x00\x00'
+2160,CAM-04,Sector B,Person #1 (INBOUND [Approaching]),0.85,High,13:15:43,cam_4_id1_88da.jpg,Pending,2026-09-10T13:15:43.716629,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2159,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.77,High,13:15:42,cam_1_id1_f4b0.jpg,Pending,2026-09-10T13:15:42.929326,1
+2158,CAM-01,Sector A,Person #2 (LATERAL [Eastbound]),0.48,High,13:15:38,cam_1_id2_5d1b.jpg,Pending,2026-09-10T13:15:38.575231,2
+2157,CAM-04,Sector B,Person #2171 (Stationary),0.59,High,13:15:36,cam_4_id2171_56a4.jpg,Pending,2026-09-10T13:15:36.018031,b'{\x08\x00\x00\x00\x00\x00\x00'
+2156,CAM-04,Sector B,Person #1 (OUTBOUND [Retreating]),0.84,High,13:15:33,cam_4_id1_e7a9.jpg,Pending,2026-09-10T13:15:33.550230,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2155,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.43,High,13:15:32,cam_1_id1_5644.jpg,Pending,2026-09-10T13:15:32.448979,1
+2154,CAM-01,Sector A,Person #2 (LATERAL [Westbound]),0.46,High,13:15:24,cam_1_id2_e9ad.jpg,Pending,2026-09-10T13:15:24.082940,2
+2153,CAM-04,Sector B,Person #2 (INBOUND [Approaching]),0.61,High,13:15:23,cam_4_id2_3b72.jpg,Pending,2026-09-10T13:15:23.667114,b'\x02\x00\x00\x00\x00\x00\x00\x00'
+2152,CAM-04,Sector B,Person #1 (INBOUND [Approaching]),0.71,High,13:15:23,cam_4_id1_301d.jpg,Pending,2026-09-10T13:15:23.555404,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2151,CAM-01,Sector A,Person #1 (LATERAL [Westbound]),0.46,High,13:15:22,cam_1_id1_2d28.jpg,Pending,2026-09-10T13:15:22.406575,1
+2150,CAM-04,Sector B,Person #2 (LATERAL [Westbound]),0.55,High,13:15:13,cam_4_id2_6361.jpg,Pending,2026-09-10T13:15:13.553394,b'\x02\x00\x00\x00\x00\x00\x00\x00'
+2149,CAM-04,Sector B,Person #1 (LATERAL [Eastbound]),0.77,High,13:15:13,cam_4_id1_e4bc.jpg,Pending,2026-09-10T13:15:13.440493,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2148,CAM-01,Sector A,Person #2 (Stationary),0.35,High,13:15:08,cam_1_id2_2dd3.jpg,Pending,2026-09-10T13:15:08.648386,2
+2147,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.76,High,13:15:05,cam_1_id1_815f.jpg,Pending,2026-09-10T13:15:05.425905,1
+2146,CAM-04,Sector B,Person #1 (LATERAL [Westbound]),0.73,High,13:15:03,cam_4_id1_c98d.jpg,Pending,2026-09-10T13:15:03.380640,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2145,CAM-04,Sector B,Person #2 (OUTBOUND [Retreating]),0.61,High,13:15:03,cam_4_id2_6f0e.jpg,Pending,2026-09-10T13:15:03.376355,b'\x02\x00\x00\x00\x00\x00\x00\x00'
+2144,CAM-01,Sector A,Person #1 (LATERAL [Eastbound]),0.6,High,13:14:55,cam_1_id1_8b46.jpg,Pending,2026-09-10T13:14:55.388481,1
+2143,CAM-04,Sector B,Person #1 (INBOUND [Approaching]),0.74,High,13:14:53,cam_4_id1_b59e.jpg,Pending,2026-09-10T13:14:53.343410,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2142,CAM-04,Sector B,Person #2 (LATERAL [Westbound]),0.75,High,13:14:53,cam_4_id2_d62e.jpg,Pending,2026-09-10T13:14:53.339688,b'\x02\x00\x00\x00\x00\x00\x00\x00'
+2141,CAM-01,Sector A,Person #2 (Stationary),0.46,High,13:14:50,cam_1_id2_8564.jpg,Pending,2026-09-10T13:14:50.614035,2
+2140,CAM-01,Sector A,Person #1 (Stationary),0.36,High,13:14:45,cam_1_id1_d28d.jpg,Pending,2026-09-10T13:14:45.388931,1
+2139,CAM-04,Sector B,Person #2 (Stationary),0.67,High,13:14:44,cam_4_id2_51a1.jpg,Pending,2026-09-10T13:14:44.703831,b'\x02\x00\x00\x00\x00\x00\x00\x00'
+2138,CAM-04,Sector B,Person #1 (Stationary),0.77,High,13:14:44,cam_4_id1_26db.jpg,Pending,2026-09-10T13:14:44.682444,b'\x01\x00\x00\x00\x00\x00\x00\x00'
+2137,CAM-04,Sector B,Person #4374 (Stationary),0.82,High,13:11:34,cam_4_id4374_e728.jpg,Pending,2026-09-10T13:11:34.638539,b'\x16\x11\x00\x00\x00\x00\x00\x00'
+2136,CAM-04,Sector B,Person #4374 (Stationary),0.82,High,13:11:32,cam_4_id4374_bf0c.jpg,Pending,2026-09-10T13:11:32.912227,b'\x16\x11\x00\x00\x00\x00\x00\x00'
+2135,CAM-04,Sector B,Person #2840 (INBOUND [Approaching]),0.82,High,13:11:22,cam_4_id2840_b522.jpg,Pending,2026-09-10T13:11:22.387962,b'\x18\x0b\x00\x00\x00\x00\x00\x00'
+2134,CAM-04,Sector B,Person #2840 (OUTBOUND [Retreating]),0.69,High,13:11:10,cam_4_id2840_2b43.jpg,Pending,2026-09-10T13:11:10.262476,b'\x18\x0b\x00\x00\x00\x00\x00\x00'
+2133,CAM-01,Sector A,Person #3837 (Stationary),0.66,High,13:11:08,cam_1_id3837_4199.jpg,Pending,2026-09-10T13:11:08.063087,b'\xfd\x0e\x00\x00\x00\x00\x00\x00'
+2132,CAM-04,Sector B,Person #2840 (INBOUND [Approaching]),0.74,High,13:10:58,cam_4_id2840_c5b2.jpg,Pending,2026-09-10T13:10:58.288918,b'\x18\x0b\x00\x00\x00\x00\x00\x00'
+2131,CAM-04,Sector B,Person #2840 (INBOUND [Approaching]),0.68,High,13:10:46,cam_4_id2840_f9d9.jpg,Pending,2026-09-10T13:10:46.195648,b'\x18\x0b\x00\x00\x00\x00\x00\x00'
+2130,CAM-04,Sector B,Person #1956 (LATERAL [Westbound]),0.62,High,13:10:38,cam_4_id1956_14fa.jpg,Pending,2026-09-10T13:10:38.486286,b'\xa4\x07\x00\x00\x00\x00\x00\x00'
+2129,CAM-04,Sector B,Person #2840 (Stationary),0.61,High,13:10:34,cam_4_id2840_c035.jpg,Pending,2026-09-10T13:10:34.102313,b'\x18\x0b\x00\x00\x00\x00\x00\x00'
+2128,CAM-04,Sector B,Person #1956 (LATERAL [Westbound]),0.78,High,13:10:26,cam_4_id1956_356a.jpg,Pending,2026-09-10T13:10:26.419517,b'\xa4\x07\x00\x00\x00\x00\x00\x00'
+2127,CAM-04,Sector B,Person #1956 (OUTBOUND [Retreating]),0.72,High,13:10:14,cam_4_id1956_425e.jpg,Pending,2026-09-10T13:10:14.256527,b'\xa4\x07\x00\x00\x00\x00\x00\x00'
+2126,CAM-04,Sector B,Person #1956 (Stationary),0.76,High,13:10:02,cam_4_id1956_bc14.jpg,Pending,2026-09-10T13:10:02.223191,b'\xa4\x07\x00\x00\x00\x00\x00\x00'
+2125,CAM-01,Sector A,Person #1206 (Stationary),0.6,High,13:09:44,cam_1_id1206_bca6.jpg,Pending,2026-09-10T13:09:44.208313,b'\xb6\x04\x00\x00\x00\x00\x00\x00'
+2124,CAM-04,Sector B,Person #1162 (Stationary),0.75,High,13:09:43,cam_4_id1162_c680.jpg,Pending,2026-09-10T13:09:43.220396,b'\x8a\x04\x00\x00\x00\x00\x00\x00'
+2123,CAM-04,Sector B,Person #1162 (LATERAL [Eastbound]),0.76,High,13:08:04,cam_4_id1162_4cbd.jpg,Pending,2026-09-10T13:08:04.229916,b'\x8a\x04\x00\x00\x00\x00\x00\x00'
+2122,CAM-04,Sector B,Person #1162 (INBOUND [Approaching]),0.78,High,13:07:52,cam_4_id1162_f6a5.jpg,Pending,2026-09-10T13:07:52.210009,b'\x8a\x04\x00\x00\x00\x00\x00\x00'
+2121,CAM-04,Sector B,Person #1162 (LATERAL [Eastbound]),0.67,High,13:07:40,cam_4_id1162_e62b.jpg,Pending,2026-09-10T13:07:40.209753,b'\x8a\x04\x00\x00\x00\x00\x00\x00'
+2120,CAM-04,Sector B,Person #1162 (Stationary),0.8,High,13:07:28,cam_4_id1162_5a0a.jpg,Pending,2026-09-10T13:07:28.021883,b'\x8a\x04\x00\x00\x00\x00\x00\x00'
+2119,CAM-04,Sector B,Person #1162 (Stationary),0.84,High,13:07:16,cam_4_id1162_7e7c.jpg,Pending,2026-09-10T13:07:16.006222,b'\x8a\x04\x00\x00\x00\x00\x00\x00'
+2118,CAM-04,Sector B,Person #1162 (LATERAL [Westbound]),0.79,High,13:07:03,cam_4_id1162_f796.jpg,Pending,2026-09-10T13:07:03.990494,b'\x8a\x04\x00\x00\x00\x00\x00\x00'
+2117,CAM-04,Sector B,Person #1162 (LATERAL [Westbound]),0.82,High,13:06:51,cam_4_id1162_a5cf.jpg,Pending,2026-09-10T13:06:51.955077,b'\x8a\x04\x00\x00\x00\x00\x00\x00'
+2116,CAM-04,Sector B,Person #1162 (Stationary),0.67,High,13:06:39,cam_4_id1162_bb18.jpg,Pending,2026-09-10T13:06:39.915621,b'\x8a\x04\x00\x00\x00\x00\x00\x00'
+2115,CAM-04,Sector B,Person #1161 (Stationary),0.77,High,13:06:39,cam_4_id1161_1b8d.jpg,Pending,2026-09-10T13:06:39.878603,b'\x89\x04\x00\x00\x00\x00\x00\x00'
+2114,CAM-01,Sector A,Person,0.59,High,13:01:11,cam_1_f94792.jpg,Pending,2026-09-10T13:01:11.556002,-1
+2113,CAM-01,Sector A,Person,0.66,High,13:01:08,cam_1_49a302.jpg,Pending,2026-09-10T13:01:08.946512,-1
+2112,CAM-01,Sector A,Person,0.77,High,13:01:06,cam_1_cf217c.jpg,Pending,2026-09-10T13:01:06.346330,-1
+2111,CAM-01,Sector A,Person,0.56,High,13:01:03,cam_1_34a921.jpg,Pending,2026-09-10T13:01:03.725649,-1
+2110,CAM-01,Sector A,Person,0.7,High,13:01:00,cam_1_44c2d5.jpg,Pending,2026-09-10T13:01:00.045204,-1
+2109,CAM-04,Sector B,Person,0.82,High,13:00:59,cam_4_3a15e4.jpg,Pending,2026-09-10T13:00:59.687383,-1
+2108,CAM-01,Sector A,Person,0.65,High,13:00:57,cam_1_913201.jpg,Pending,2026-09-10T13:00:57.339216,-1
+2107,CAM-02,Sector B,Vehicle,0.76,Medium,13:00:57,cam_2_a6876e.jpg,Pending,2026-09-10T13:00:57.153250,-1
+2106,CAM-04,Sector B,Vehicle,0.84,Medium,13:00:56,cam_4_fb0d28.jpg,Pending,2026-09-10T13:00:56.901353,-1
+2105,CAM-01,Sector A,Person,0.71,High,13:00:54,cam_1_944a16.jpg,Pending,2026-09-10T13:00:54.679671,-1
+2104,CAM-02,Sector B,Vehicle,0.67,Medium,13:00:54,cam_2_2429ff.jpg,Pending,2026-09-10T13:00:54.538630,-1
+2103,CAM-04,Sector B,Person,0.77,High,13:00:54,cam_4_13e1d5.jpg,Pending,2026-09-10T13:00:54.338131,-1
+2102,CAM-01,Sector A,Person,0.6,High,13:00:52,cam_1_ee4409.jpg,Pending,2026-09-10T13:00:52.036281,-1
+2101,CAM-04,Sector B,Vehicle,0.83,Medium,13:00:51,cam_4_a7129b.jpg,Pending,2026-09-10T13:00:51.594295,-1
+2100,CAM-02,Sector B,Vehicle,0.7,Medium,13:00:50,cam_2_546512.jpg,Pending,2026-09-10T13:00:50.272955,-1
+2099,CAM-01,Sector A,Person,0.59,High,13:00:49,cam_1_699cb2.jpg,Pending,2026-09-10T13:00:49.399200,-1
+2098,CAM-04,Sector B,Vehicle,0.79,Medium,13:00:49,cam_4_b97645.jpg,Pending,2026-09-10T13:00:49.010318,-1
+2097,CAM-01,Sector A,Person,0.71,High,13:00:46,cam_1_53694e.jpg,Pending,2026-09-10T13:00:46.689979,-1
+2096,CAM-04,Sector B,Vehicle,0.67,Medium,13:00:46,cam_4_7ad0b9.jpg,Pending,2026-09-10T13:00:46.340463,-1
+2095,CAM-02,Sector B,Vehicle,0.71,Medium,13:00:46,cam_2_a827ed.jpg,Pending,2026-09-10T13:00:46.012111,-1
+2094,CAM-01,Sector A,Person,0.56,High,13:00:44,cam_1_949820.jpg,Pending,2026-09-10T13:00:44.004560,-1
+2093,CAM-04,Sector B,Person,0.69,High,13:00:43,cam_4_877be3.jpg,Pending,2026-09-10T13:00:43.579107,-1
+2092,CAM-01,Sector A,Person,0.61,High,13:00:41,cam_1_b389e0.jpg,Pending,2026-09-10T13:00:41.198037,-1
+2091,CAM-04,Sector B,Person,0.75,High,13:00:40,cam_4_22e475.jpg,Pending,2026-09-10T13:00:40.817798,-1
+2090,CAM-02,Sector B,Vehicle,0.75,Medium,13:00:40,cam_2_b76bd7.jpg,Pending,2026-09-10T13:00:40.763918,-1
+2089,CAM-01,Sector A,Person,0.62,High,13:00:08,cam_1_0b8033.jpg,Pending,2026-09-10T13:00:08.628056,-1
+2088,CAM-01,Sector A,Person,0.69,High,13:00:05,cam_1_3100b1.jpg,Pending,2026-09-10T13:00:05.606795,-1
+2087,CAM-01,Sector A,Person,0.63,High,13:00:02,cam_1_10bbd7.jpg,Pending,2026-09-10T13:00:02.558782,-1
+2086,CAM-01,Sector A,Person,0.7,High,12:59:59,cam_1_ef6d85.jpg,Pending,2026-09-10T12:59:59.536082,-1
+2085,CAM-01,Sector A,Person,0.6,High,12:59:56,cam_1_6d19b6.jpg,Pending,2026-09-10T12:59:56.478215,-1
+2084,CAM-01,Sector A,Person,0.56,High,12:59:53,cam_1_5627b7.jpg,Pending,2026-09-10T12:59:53.457252,-1
+2083,CAM-01,Sector A,Person,0.6,High,12:59:46,cam_1_6c9fc8.jpg,Pending,2026-09-10T12:59:46.067489,-1
+2082,CAM-01,Sector A,Person,0.67,High,12:59:43,cam_1_6b2c6d.jpg,Pending,2026-09-10T12:59:43.029544,-1
+2081,CAM-01,Sector A,Person,0.66,High,12:59:39,cam_1_76bb04.jpg,Pending,2026-09-10T12:59:39.940914,-1
+2080,CAM-01,Sector A,Person,0.8,High,12:59:36,cam_1_e17f62.jpg,Pending,2026-09-10T12:59:36.864204,-1
+2079,CAM-01,Sector A,Person,0.65,High,12:59:33,cam_1_b5ab2b.jpg,Pending,2026-09-10T12:59:33.852009,-1
+2078,CAM-01,Sector A,Person,0.53,High,12:59:30,cam_1_8be8e3.jpg,Pending,2026-09-10T12:59:30.791736,-1
+2077,CAM-01,Sector A,Person,0.63,High,12:59:23,cam_1_3ebf07.jpg,Pending,2026-09-10T12:59:23.453934,-1
+2076,CAM-01,Sector A,Person,0.63,High,12:59:20,cam_1_f6cb95.jpg,Pending,2026-09-10T12:59:20.418857,-1
+2075,CAM-01,Sector A,Person,0.6,High,12:59:17,cam_1_155ad8.jpg,Pending,2026-09-10T12:59:17.402090,-1
+2074,CAM-01,Sector A,Person,0.75,High,12:59:14,cam_1_9002a9.jpg,Pending,2026-09-10T12:59:14.354145,-1
+2073,CAM-01,Sector A,Person,0.61,High,12:59:11,cam_1_36b468.jpg,Pending,2026-09-10T12:59:11.245227,-1
+2072,CAM-01,Sector A,Person,0.61,High,12:59:08,cam_1_130bd8.jpg,Pending,2026-09-10T12:59:08.154862,-1
+2071,CAM-01,Sector A,Person,0.64,High,12:59:00,cam_1_b9d48b.jpg,Pending,2026-09-10T12:59:00.953705,-1
+2070,CAM-01,Sector A,Person,0.64,High,12:58:57,cam_1_e1f4d9.jpg,Pending,2026-09-10T12:58:57.913876,-1
+2069,CAM-01,Sector A,Person,0.68,High,12:58:54,cam_1_a60537.jpg,Pending,2026-09-10T12:58:54.729305,-1
+2068,CAM-01,Sector A,Person,0.72,High,12:58:51,cam_1_075382.jpg,Pending,2026-09-10T12:58:51.713686,-1
+2067,CAM-01,Sector A,Person,0.52,High,12:58:48,cam_1_beba30.jpg,Pending,2026-09-10T12:58:48.630697,-1
+2066,CAM-01,Sector A,Person,0.66,High,12:58:45,cam_1_d582ea.jpg,Pending,2026-09-10T12:58:45.546033,-1
+2065,CAM-01,Sector A,Person,0.64,High,12:58:38,cam_1_e1f496.jpg,Pending,2026-09-10T12:58:38.283653,-1
+2064,CAM-01,Sector A,Person,0.68,High,12:58:35,cam_1_759aa5.jpg,Pending,2026-09-10T12:58:35.194032,-1
+2063,CAM-01,Sector A,Person,0.61,High,12:58:32,cam_1_993d11.jpg,Pending,2026-09-10T12:58:32.149075,-1
+2062,CAM-01,Sector A,Person,0.7,High,12:58:29,cam_1_75f931.jpg,Pending,2026-09-10T12:58:29.111384,-1
+2061,CAM-01,Sector A,Person,0.6,High,12:58:26,cam_1_127f10.jpg,Pending,2026-09-10T12:58:26.093169,-1
+2060,CAM-01,Sector A,Person,0.61,High,12:58:23,cam_1_30c435.jpg,Pending,2026-09-10T12:58:23.045702,-1
+2059,CAM-01,Sector A,Person,0.62,High,12:58:15,cam_1_83a04e.jpg,Pending,2026-09-10T12:58:15.836694,-1
+2058,CAM-01,Sector A,Person,0.69,High,12:58:12,cam_1_e49055.jpg,Pending,2026-09-10T12:58:12.768190,-1
+2057,CAM-01,Sector A,Person,0.63,High,12:58:09,cam_1_4523c1.jpg,Pending,2026-09-10T12:58:09.716530,-1
+2056,CAM-01,Sector A,Person,0.7,High,12:58:06,cam_1_d8c27d.jpg,Pending,2026-09-10T12:58:06.637187,-1
+2055,CAM-01,Sector A,Person,0.6,High,12:58:03,cam_1_ccc95b.jpg,Pending,2026-09-10T12:58:03.582503,-1
+2054,CAM-01,Sector A,Person,0.56,High,12:58:00,cam_1_20e2d6.jpg,Pending,2026-09-10T12:58:00.521130,-1
+2053,CAM-01,Sector A,Person,0.6,High,12:57:53,cam_1_c0721f.jpg,Pending,2026-09-10T12:57:53.000702,-1
+2052,CAM-01,Sector A,Person,0.67,High,12:57:49,cam_1_605ac2.jpg,Pending,2026-09-10T12:57:49.958551,-1
+2051,CAM-01,Sector A,Person,0.66,High,12:57:46,cam_1_e6acb6.jpg,Pending,2026-09-10T12:57:46.925458,-1
+2050,CAM-01,Sector A,Person,0.8,High,12:57:43,cam_1_312b2e.jpg,Pending,2026-09-10T12:57:43.880480,-1
+2049,CAM-01,Sector A,Person,0.65,High,12:57:40,cam_1_8a999c.jpg,Pending,2026-09-10T12:57:40.832780,-1
+2048,CAM-01,Sector A,Person,0.53,High,12:57:37,cam_1_12c0bd.jpg,Pending,2026-09-10T12:57:37.705211,-1
+2047,CAM-01,Sector A,Person,0.63,High,12:57:30,cam_1_2ac1d5.jpg,Pending,2026-09-10T12:57:30.288387,-1
+2046,CAM-01,Sector A,Person,0.63,High,12:57:27,cam_1_1f2ef1.jpg,Pending,2026-09-10T12:57:27.204399,-1
+2045,CAM-01,Sector A,Person,0.6,High,12:57:24,cam_1_900584.jpg,Pending,2026-09-10T12:57:24.079479,-1
+2044,CAM-01,Sector A,Person,0.75,High,12:57:20,cam_1_7fa539.jpg,Pending,2026-09-10T12:57:20.999464,-1
+2043,CAM-01,Sector A,Person,0.61,High,12:57:17,cam_1_902253.jpg,Pending,2026-09-10T12:57:17.902472,-1
+2042,CAM-01,Sector A,Person,0.61,High,12:57:14,cam_1_ee6aab.jpg,Pending,2026-09-10T12:57:14.823850,-1
+2041,CAM-01,Sector A,Person,0.64,High,12:57:07,cam_1_398a55.jpg,Pending,2026-09-10T12:57:07.499847,-1
+2040,CAM-01,Sector A,Person,0.64,High,12:57:04,cam_1_41eb19.jpg,Pending,2026-09-10T12:57:04.412986,-1
+2039,CAM-01,Sector A,Person,0.64,High,12:57:01,cam_1_bdc277.jpg,Pending,2026-09-10T12:57:01.369603,-1
+2038,CAM-01,Sector A,Person,0.72,High,12:56:58,cam_1_d88323.jpg,Pending,2026-09-10T12:56:58.321378,-1
+2037,CAM-01,Sector A,Person,0.52,High,12:56:55,cam_1_d11524.jpg,Pending,2026-09-10T12:56:55.215245,-1
+2036,CAM-01,Sector A,Person,0.66,High,12:56:52,cam_1_12d7f9.jpg,Pending,2026-09-10T12:56:52.191106,-1
+2035,CAM-01,Sector A,Person,0.64,High,12:56:44,cam_1_b48a24.jpg,Pending,2026-09-10T12:56:44.898273,-1
+2034,CAM-01,Sector A,Person,0.68,High,12:56:41,cam_1_e3f340.jpg,Pending,2026-09-10T12:56:41.876451,-1
+2033,CAM-01,Sector A,Person,0.61,High,12:56:38,cam_1_ff80c2.jpg,Pending,2026-09-10T12:56:38.856860,-1
+2032,CAM-01,Sector A,Person,0.7,High,12:56:35,cam_1_262320.jpg,Pending,2026-09-10T12:56:35.828455,-1
+2031,CAM-01,Sector A,Person,0.6,High,12:56:32,cam_1_b69b82.jpg,Pending,2026-09-10T12:56:32.795407,-1
+2030,CAM-01,Sector A,Person,0.61,High,12:56:29,cam_1_1b8396.jpg,Pending,2026-09-10T12:56:29.739568,-1
+2029,CAM-01,Sector A,Person,0.51,High,12:56:22,cam_1_bbe9f3.jpg,Pending,2026-09-10T12:56:22.298293,-1
+2028,CAM-01,Sector A,Person,0.72,High,12:56:19,cam_1_643ba9.jpg,Pending,2026-09-10T12:56:19.236935,-1
+2027,CAM-01,Sector A,Person,0.68,High,12:56:16,cam_1_b2e114.jpg,Pending,2026-09-10T12:56:16.173712,-1
+2026,CAM-01,Sector A,Person,0.7,High,12:56:13,cam_1_60e9a0.jpg,Pending,2026-09-10T12:56:13.066720,-1
+2025,CAM-01,Sector A,Person,0.6,High,12:56:09,cam_1_e254f9.jpg,Pending,2026-09-10T12:56:09.964396,-1
+2024,CAM-01,Sector A,Person,0.56,High,12:56:06,cam_1_3ace37.jpg,Pending,2026-09-10T12:56:06.910668,-1
+2023,CAM-01,Sector A,Person,0.6,High,12:55:59,cam_1_175024.jpg,Pending,2026-09-10T12:55:59.496766,-1
+2022,CAM-01,Sector A,Person,0.67,High,12:55:56,cam_1_a13b5d.jpg,Pending,2026-09-10T12:55:56.446193,-1
+2021,CAM-01,Sector A,Person,0.66,High,12:55:53,cam_1_64b7f7.jpg,Pending,2026-09-10T12:55:53.405683,-1
+2020,CAM-01,Sector A,Person,0.8,High,12:55:50,cam_1_374747.jpg,Pending,2026-09-10T12:55:50.306445,-1
+2019,CAM-01,Sector A,Person,0.65,High,12:55:47,cam_1_7a79f6.jpg,Pending,2026-09-10T12:55:47.262084,-1
+2018,CAM-01,Sector A,Person,0.53,High,12:55:44,cam_1_c71bab.jpg,Pending,2026-09-10T12:55:44.201110,-1
+2017,CAM-01,Sector A,Person,0.63,High,12:55:36,cam_1_45fbb0.jpg,Pending,2026-09-10T12:55:36.979399,-1
+2016,CAM-01,Sector A,Person,0.63,High,12:55:33,cam_1_647fbf.jpg,Pending,2026-09-10T12:55:33.901225,-1
+2015,CAM-01,Sector A,Person,0.6,High,12:55:30,cam_1_d0b013.jpg,Pending,2026-09-10T12:55:30.853319,-1
+2014,CAM-01,Sector A,Person,0.75,High,12:55:27,cam_1_17658b.jpg,Pending,2026-09-10T12:55:27.787772,-1
+2013,CAM-01,Sector A,Person,0.61,High,12:55:24,cam_1_66edef.jpg,Pending,2026-09-10T12:55:24.722305,-1
+2012,CAM-01,Sector A,Person,0.61,High,12:55:21,cam_1_cb7947.jpg,Pending,2026-09-10T12:55:21.585106,-1
+2011,CAM-04,Sector B,Person,0.73,High,12:50:12,cam_4_7b0d4b.jpg,Pending,2026-09-10T12:50:12.351669,-1
+2010,CAM-04,Sector B,Vehicle,0.73,Medium,12:50:09,cam_4_0eb999.jpg,Pending,2026-09-10T12:50:09.298261,-1
+2009,CAM-04,Sector B,Person,0.75,High,12:50:06,cam_4_d4bd78.jpg,Pending,2026-09-10T12:50:06.124359,-1
+2008,CAM-01,Sector A,Person,0.75,High,12:49:57,cam_1_8e7add.jpg,Pending,2026-09-10T12:49:57.576712,-1
+2007,CAM-01,Sector A,Person,0.61,High,12:49:54,cam_1_0648af.jpg,Pending,2026-09-10T12:49:54.567211,-1
+2006,CAM-01,Sector A,Person,0.61,High,12:49:51,cam_1_f5cd5d.jpg,Pending,2026-09-10T12:49:51.482242,-1
+2005,CAM-04,Sector B,Person,0.79,High,12:49:11,cam_4_914c3d.jpg,Pending,2026-09-10T12:49:11.379629,-1
+2004,CAM-02,Sector B,Vehicle,0.86,Medium,12:49:10,cam_2_8388f6.jpg,Pending,2026-09-10T12:49:10.181079,-1
+2003,CAM-04,Sector B,Vehicle,0.83,Medium,12:49:08,cam_4_0771e7.jpg,Pending,2026-09-10T12:49:08.135153,-1
+2002,CAM-01,Sector A,Person,0.66,High,12:49:07,cam_1_f3846b.jpg,Pending,2026-09-10T12:49:07.164214,-1
+2001,CAM-02,Sector B,Vehicle,0.79,Medium,12:49:07,cam_2_4b170a.jpg,Pending,2026-09-10T12:49:07.141804,-1
+2000,CAM-04,Sector B,Vehicle,0.82,Medium,12:49:05,cam_4_252009.jpg,Pending,2026-09-10T12:49:05.099101,-1
+1999,CAM-01,Sector A,Person,0.68,High,12:49:04,cam_1_85d4ee.jpg,Pending,2026-09-10T12:49:04.100241,-1
+1998,CAM-02,Sector B,Vehicle,0.76,Medium,12:49:02,cam_2_3c8e8d.jpg,Pending,2026-09-10T12:49:02.940436,-1
+1997,CAM-04,Sector B,Vehicle,0.84,Medium,12:49:01,cam_4_fa62ee.jpg,Pending,2026-09-10T12:49:01.868244,-1
+1996,CAM-01,Sector A,Person,0.8,High,12:49:01,cam_1_487b28.jpg,Pending,2026-09-10T12:49:01.040479,-1
+1995,CAM-04,Sector B,Vehicle,0.82,Medium,12:48:58,cam_4_64057a.jpg,Pending,2026-09-10T12:48:58.627516,-1
+1994,CAM-01,Sector A,Person,0.65,High,12:48:57,cam_1_25e139.jpg,Pending,2026-09-10T12:48:57.840245,-1
+1993,CAM-02,Sector B,Vehicle,0.6,Medium,12:48:55,cam_2_d07455.jpg,Pending,2026-09-10T12:48:55.852690,-1
+1992,CAM-04,Sector B,Vehicle,0.67,Medium,12:48:55,cam_4_ca2410.jpg,Pending,2026-09-10T12:48:55.553902,-1
+1991,CAM-01,Sector A,Person,0.61,High,12:48:54,cam_1_56f7c4.jpg,Pending,2026-09-10T12:48:54.505175,-1
+1990,CAM-04,Sector B,Person,0.76,High,12:48:52,cam_4_0ac804.jpg,Pending,2026-09-10T12:48:52.406204,-1
+1989,CAM-02,Sector B,Vehicle,0.65,Medium,12:48:51,cam_2_db8b65.jpg,Pending,2026-09-10T12:48:51.824355,-1
+1988,CAM-04,Sector B,Person,0.79,High,12:48:49,cam_4_fa1743.jpg,Pending,2026-09-10T12:48:49.166002,-1
+1987,CAM-02,Sector B,Vehicle,0.71,Medium,12:48:47,cam_2_81ab81.jpg,Pending,2026-09-10T12:48:47.783434,-1
+1986,CAM-04,Sector B,Person,0.87,High,12:48:45,cam_4_17200c.jpg,Pending,2026-09-10T12:48:45.910461,-1
+1985,CAM-02,Sector B,Vehicle,0.72,Medium,12:48:44,cam_2_a4c3ba.jpg,Pending,2026-09-10T12:48:44.740396,-1
+1984,CAM-01,Sector A,Person,0.61,High,12:48:43,cam_1_203e19.jpg,Pending,2026-09-10T12:48:43.628033,-1
+1983,CAM-04,Sector B,Vehicle,0.78,Medium,12:48:42,cam_4_6a2c1c.jpg,Pending,2026-09-10T12:48:42.790801,-1
+1982,CAM-01,Sector A,Person,0.76,High,12:48:40,cam_1_6839af.jpg,Pending,2026-09-10T12:48:40.338582,-1
+1981,CAM-04,Sector B,Vehicle,0.85,Medium,12:48:39,cam_4_4c82ee.jpg,Pending,2026-09-10T12:48:39.764768,-1
+1980,CAM-02,Sector B,Vehicle,0.66,Medium,12:48:38,cam_2_76ffe8.jpg,Pending,2026-09-10T12:48:38.540196,-1
+1979,CAM-01,Sector A,Person,0.69,High,12:48:37,cam_1_2274a5.jpg,Pending,2026-09-10T12:48:37.274525,-1
+1978,CAM-04,Sector B,Vehicle,0.84,Medium,12:48:36,cam_4_c214f6.jpg,Pending,2026-09-10T12:48:36.554617,-1
+1977,CAM-02,Sector B,Vehicle,0.72,Medium,12:48:35,cam_2_71cb3d.jpg,Pending,2026-09-10T12:48:35.423783,-1
+1976,CAM-01,Sector A,Person,0.67,High,12:48:34,cam_1_8bbeeb.jpg,Pending,2026-09-10T12:48:34.250637,-1
+1975,CAM-04,Sector B,Person,0.87,High,12:48:33,cam_4_1fd5bc.jpg,Pending,2026-09-10T12:48:33.362853,-1
+1974,CAM-02,Sector B,Vehicle,0.72,Medium,12:48:32,cam_2_4da181.jpg,Pending,2026-09-10T12:48:32.374117,-1
+1973,CAM-01,Sector A,Person,0.63,High,12:48:30,cam_1_4d2900.jpg,Pending,2026-09-10T12:48:30.993455,-1
+1972,CAM-04,Sector B,Vehicle,0.81,Medium,12:48:30,cam_4_5d9c33.jpg,Pending,2026-09-10T12:48:30.165184,-1
+1971,CAM-02,Sector B,Vehicle,0.72,Medium,12:48:29,cam_2_c9c335.jpg,Pending,2026-09-10T12:48:29.278018,-1
+1970,CAM-01,Sector A,Person,0.56,High,12:48:27,cam_1_d1ca14.jpg,Pending,2026-09-10T12:48:27.632214,-1
+1969,CAM-04,Sector B,Vehicle,0.85,Medium,12:48:26,cam_4_b9facf.jpg,Pending,2026-09-10T12:48:26.875805,-1
+1968,CAM-02,Sector B,Vehicle,0.73,Medium,12:48:25,cam_2_928ca0.jpg,Pending,2026-09-10T12:48:25.210332,-1
+1967,CAM-04,Sector B,Vehicle,0.83,Medium,12:48:23,cam_4_b4d81d.jpg,Pending,2026-09-10T12:48:23.725349,-1
+1966,CAM-02,Sector B,Vehicle,0.77,Medium,12:48:20,cam_2_9631ce.jpg,Pending,2026-09-10T12:48:20.744596,-1
+1965,CAM-04,Sector B,Person,0.73,High,12:48:20,cam_4_52dd37.jpg,Pending,2026-09-10T12:48:20.654227,-1
+1964,CAM-01,Sector A,Person,0.6,High,12:48:18,cam_1_19ea96.jpg,Pending,2026-09-10T12:48:18.896276,-1
+1963,CAM-04,Sector B,Person,0.7,High,12:48:17,cam_4_bdfab4.jpg,Pending,2026-09-10T12:48:17.516817,-1
+1962,CAM-01,Sector A,Person,0.78,High,12:48:15,cam_1_de95da.jpg,Pending,2026-09-10T12:48:15.890023,-1
+1961,CAM-04,Sector B,Vehicle,0.77,Medium,12:48:14,cam_4_e94277.jpg,Pending,2026-09-10T12:48:14.419523,-1
+1960,CAM-02,Sector B,Vehicle,0.77,Medium,12:48:13,cam_2_63be10.jpg,Pending,2026-09-10T12:48:13.831815,-1
+1959,CAM-01,Sector A,Person,0.65,High,12:48:12,cam_1_502716.jpg,Pending,2026-09-10T12:48:12.698651,-1
+1958,CAM-04,Sector B,Person,0.84,High,12:48:11,cam_4_28bf29.jpg,Pending,2026-09-10T12:48:11.301927,-1
+1957,CAM-02,Sector B,Vehicle,0.73,Medium,12:48:10,cam_2_888bfc.jpg,Pending,2026-09-10T12:48:10.787088,-1
+1956,CAM-01,Sector A,Person,0.58,High,12:48:09,cam_1_d09895.jpg,Pending,2026-09-10T12:48:09.606603,-1
+1955,CAM-04,Sector B,Person,0.87,High,12:48:08,cam_4_8324d3.jpg,Pending,2026-09-10T12:48:08.181734,-1
+1954,CAM-02,Sector B,Vehicle,0.8,Medium,12:48:07,cam_2_ce0cd2.jpg,Pending,2026-09-10T12:48:07.753245,-1
+1953,CAM-01,Sector A,Person,0.64,High,12:48:06,cam_1_e3e026.jpg,Pending,2026-09-10T12:48:06.560525,-1
+1952,CAM-04,Sector B,Vehicle,0.71,Medium,12:48:05,cam_4_a13de1.jpg,Pending,2026-09-10T12:48:05.063504,-1
+1951,CAM-02,Sector B,Vehicle,0.8,Medium,12:48:04,cam_2_6778ba.jpg,Pending,2026-09-10T12:48:04.710290,-1
+1950,CAM-01,Sector A,Person,0.58,High,12:48:03,cam_1_ddbd16.jpg,Pending,2026-09-10T12:48:03.553408,-1
+1949,CAM-04,Sector B,Person,0.8,High,12:48:01,cam_4_442e92.jpg,Pending,2026-09-10T12:48:01.781979,-1
+1948,CAM-02,Sector B,Vehicle,0.67,Medium,12:48:01,cam_2_f9a9e3.jpg,Pending,2026-09-10T12:48:01.589104,-1
+1947,CAM-01,Sector A,Person,0.53,High,12:48:00,cam_1_02dfc1.jpg,Pending,2026-09-10T12:48:00.422808,-1
+1946,CAM-04,Sector B,Person,0.87,High,12:47:58,cam_4_7c9e03.jpg,Pending,2026-09-10T12:47:58.560783,-1
+1945,CAM-04,Sector B,Person,0.83,High,12:47:55,cam_4_68a3eb.jpg,Pending,2026-09-10T12:47:55.548423,-1
+1944,CAM-02,Sector B,Vehicle,0.83,Medium,12:47:53,cam_2_23a400.jpg,Pending,2026-09-10T12:47:53.473378,-1
+1943,CAM-04,Sector B,Vehicle,0.85,Medium,12:47:52,cam_4_1da9bf.jpg,Pending,2026-09-10T12:47:52.404222,-1
+1942,CAM-01,Sector A,Person,0.63,High,12:47:51,cam_1_1d9325.jpg,Pending,2026-09-10T12:47:51.758895,-1
+1941,CAM-02,Sector B,Vehicle,0.82,Medium,12:47:50,cam_2_b1f8c7.jpg,Pending,2026-09-10T12:47:50.034094,-1
+1940,CAM-04,Sector B,Vehicle,0.86,Medium,12:47:49,cam_4_f77d06.jpg,Pending,2026-09-10T12:47:49.371555,-1
+1939,CAM-01,Sector A,Person,0.7,High,12:47:48,cam_1_fe033f.jpg,Pending,2026-09-10T12:47:48.578369,-1
+1938,CAM-02,Sector B,Vehicle,0.67,Medium,12:47:46,cam_2_7d0873.jpg,Pending,2026-09-10T12:47:46.963911,-1
+1937,CAM-04,Sector B,Vehicle,0.84,Medium,12:47:46,cam_4_946dc0.jpg,Pending,2026-09-10T12:47:46.199281,-1
+1936,CAM-01,Sector A,Person,0.61,High,12:47:45,cam_1_f65b19.jpg,Pending,2026-09-10T12:47:45.568533,-1
+1935,CAM-04,Sector B,Person,0.81,High,12:47:43,cam_4_d654de.jpg,Pending,2026-09-10T12:47:43.179268,-1
+1934,CAM-02,Sector B,Vehicle,0.7,Medium,12:47:42,cam_2_aafb51.jpg,Pending,2026-09-10T12:47:42.449638,-1
+1933,CAM-01,Sector A,Person,0.6,High,12:47:42,cam_1_feb4cb.jpg,Pending,2026-09-10T12:47:42.404731,-1
+1932,CAM-04,Sector B,Person,0.82,High,12:47:40,cam_4_48fbd3.jpg,Pending,2026-09-10T12:47:40.013638,-1
+1931,CAM-01,Sector A,Person,0.71,High,12:47:39,cam_1_1f49a0.jpg,Pending,2026-09-10T12:47:39.326793,-1
+1930,CAM-02,Sector B,Vehicle,0.71,Medium,12:47:38,cam_2_211a07.jpg,Pending,2026-09-10T12:47:38.057391,-1
+1929,CAM-04,Sector B,Vehicle,0.83,Medium,12:47:36,cam_4_2bf7a8.jpg,Pending,2026-09-10T12:47:36.754798,-1
+1928,CAM-01,Sector A,Person,0.56,High,12:47:36,cam_1_43a5ff.jpg,Pending,2026-09-10T12:47:36.323416,-1
+1927,CAM-04,Sector B,Person,0.81,High,12:47:33,cam_4_0aed8c.jpg,Pending,2026-09-10T12:47:33.723436,-1
+1926,CAM-02,Sector B,Vehicle,0.75,Medium,12:47:32,cam_2_2d78f8.jpg,Pending,2026-09-10T12:47:32.623147,-1
+1925,CAM-01,Sector A,Person,0.66,High,12:47:31,cam_1_d3a0bd.jpg,Pending,2026-09-10T12:47:31.633996,-1
+1924,CAM-04,Sector B,Vehicle,0.85,Medium,12:47:30,cam_4_adf40c.jpg,Pending,2026-09-10T12:47:30.492445,-1
+1923,CAM-04,Sector B,Vehicle,0.82,Medium,12:47:27,cam_4_a0bc06.jpg,Pending,2026-09-10T12:47:27.234017,-1
+1922,CAM-02,Sector B,Vehicle,0.59,Medium,12:47:26,cam_2_9602e1.jpg,Pending,2026-09-10T12:47:26.427161,-1
+1921,CAM-04,Sector B,Person,0.74,High,12:47:24,cam_4_ea4da6.jpg,Pending,2026-09-10T12:47:24.099871,-1
+1920,CAM-02,Sector B,Vehicle,0.76,Medium,12:47:23,cam_2_e59918.jpg,Pending,2026-09-10T12:47:23.208208,-1
+1919,CAM-01,Sector A,Person,0.52,High,12:47:22,cam_1_5f7e44.jpg,Pending,2026-09-10T12:47:22.228124,-1
+1918,CAM-04,Sector B,Person,0.72,High,12:47:20,cam_4_8f8017.jpg,Pending,2026-09-10T12:47:20.805124,-1
+1917,CAM-02,Sector B,Vehicle,0.82,Medium,12:47:20,cam_2_28a2e0.jpg,Pending,2026-09-10T12:47:20.045515,-1
+1916,CAM-01,Sector A,Person,0.77,High,12:47:18,cam_1_057237.jpg,Pending,2026-09-10T12:47:18.966605,-1
+1915,CAM-04,Sector B,Person,0.79,High,12:47:17,cam_4_d679c6.jpg,Pending,2026-09-10T12:47:17.617947,-1
+1914,CAM-02,Sector B,Vehicle,0.67,Medium,12:47:17,cam_2_a41602.jpg,Pending,2026-09-10T12:47:17.043394,-1
+1913,CAM-01,Sector A,Person,0.58,High,12:47:15,cam_1_07150c.jpg,Pending,2026-09-10T12:47:15.778205,-1
+1912,CAM-04,Sector B,Person,0.79,High,12:47:14,cam_4_a67534.jpg,Pending,2026-09-10T12:47:14.491653,-1
+1911,CAM-01,Sector A,Person,0.54,High,12:47:12,cam_1_45cec1.jpg,Pending,2026-09-10T12:47:12.604585,-1
+1910,CAM-02,Sector B,Vehicle,0.7,Medium,12:47:12,cam_2_15dea2.jpg,Pending,2026-09-10T12:47:12.408242,-1
+1909,CAM-04,Sector B,Person,0.76,High,12:47:11,cam_4_303857.jpg,Pending,2026-09-10T12:47:11.327962,-1
+1908,CAM-01,Sector A,Person,0.51,High,12:47:09,cam_1_fedd93.jpg,Pending,2026-09-10T12:47:09.491993,-1
+1907,CAM-04,Sector B,Vehicle,0.77,Medium,12:47:08,cam_4_f0e5d2.jpg,Pending,2026-09-10T12:47:08.243107,-1
+1906,CAM-02,Sector B,Vehicle,0.71,Medium,12:47:07,cam_2_a4d6e0.jpg,Pending,2026-09-10T12:47:07.825985,-1
+1905,CAM-01,Sector A,Person,0.52,High,12:47:06,cam_1_41e8f9.jpg,Pending,2026-09-10T12:47:06.418370,-1
+1904,CAM-04,Sector B,Person,0.8,High,12:47:04,cam_4_38c4c0.jpg,Pending,2026-09-10T12:47:04.997382,-1
+1903,CAM-01,Sector A,Person,0.61,High,12:47:03,cam_1_215e47.jpg,Pending,2026-09-10T12:47:03.329257,-1
+1902,CAM-04,Sector B,Vehicle,0.83,Medium,12:47:01,cam_4_a5f308.jpg,Pending,2026-09-10T12:47:01.818855,-1
+1901,CAM-02,Sector B,Vehicle,0.73,Medium,12:47:00,cam_2_ed2474.jpg,Pending,2026-09-10T12:47:00.614298,-1
+1900,CAM-04,Sector B,Vehicle,0.88,Medium,12:46:58,cam_4_0eb917.jpg,Pending,2026-09-10T12:46:58.817798,-1
+1899,CAM-02,Sector B,Vehicle,0.75,Medium,12:46:57,cam_2_950dff.jpg,Pending,2026-09-10T12:46:57.453146,-1
+1898,CAM-04,Sector B,Vehicle,0.83,Medium,12:46:55,cam_4_c714b4.jpg,Pending,2026-09-10T12:46:55.579724,-1
+1897,CAM-02,Sector B,Vehicle,0.81,Medium,12:46:54,cam_2_60018d.jpg,Pending,2026-09-10T12:46:54.226503,-1
+1896,CAM-04,Sector B,Vehicle,0.87,Medium,12:46:52,cam_4_a46d87.jpg,Pending,2026-09-10T12:46:52.373519,-1
+1895,CAM-01,Sector A,Person,0.61,High,12:46:52,cam_1_2b6c2e.jpg,Pending,2026-09-10T12:46:52.047116,-1
+1894,CAM-02,Sector B,Vehicle,0.71,Medium,12:46:51,cam_2_b51019.jpg,Pending,2026-09-10T12:46:51.156909,-1
+1893,CAM-04,Sector B,Person,0.8,High,12:46:49,cam_4_8c4dd2.jpg,Pending,2026-09-10T12:46:49.170670,-1
+1892,CAM-01,Sector A,Person,0.72,High,12:46:48,cam_1_b40178.jpg,Pending,2026-09-10T12:46:48.888226,-1
+1891,CAM-02,Sector B,Vehicle,0.75,Medium,12:46:48,cam_2_64327c.jpg,Pending,2026-09-10T12:46:48.016242,-1
+1890,CAM-04,Sector B,Person,0.81,High,12:46:45,cam_4_2a6f91.jpg,Pending,2026-09-10T12:46:45.898914,-1
+1889,CAM-01,Sector A,Person,0.69,High,12:46:45,cam_1_115ff1.jpg,Pending,2026-09-10T12:46:45.780576,-1
+1888,CAM-04,Sector B,Person,0.79,High,12:46:42,cam_4_ea12bf.jpg,Pending,2026-09-10T12:46:42.656497,-1
+1887,CAM-01,Sector A,Person,0.67,High,12:46:42,cam_1_232390.jpg,Pending,2026-09-10T12:46:42.604575,-1
+1886,CAM-04,Sector B,Vehicle,0.83,Medium,12:46:39,cam_4_ea3d1a.jpg,Pending,2026-09-10T12:46:39.545619,-1
+1885,CAM-02,Sector B,Vehicle,0.52,Medium,12:46:39,cam_2_c23d14.jpg,Pending,2026-09-10T12:46:39.514554,-1
+1884,CAM-01,Sector A,Person,0.63,High,12:46:39,cam_1_14639a.jpg,Pending,2026-09-10T12:46:39.412756,-1
+1883,CAM-04,Sector B,Person,0.82,High,12:46:36,cam_4_61c124.jpg,Pending,2026-09-10T12:46:36.372062,-1
+1882,CAM-02,Sector B,Vehicle,0.75,Medium,12:46:36,cam_2_d7a8d9.jpg,Pending,2026-09-10T12:46:36.307983,-1
+1881,CAM-01,Sector A,Person,0.56,High,12:46:36,cam_1_33000f.jpg,Pending,2026-09-10T12:46:36.055534,-1
+1880,CAM-04,Sector B,Person,0.86,High,12:46:33,cam_4_f1dcba.jpg,Pending,2026-09-10T12:46:33.367262,-1
+1879,CAM-02,Sector B,Vehicle,0.71,Medium,12:46:33,cam_2_b36520.jpg,Pending,2026-09-10T12:46:33.116798,-1
+1878,CAM-04,Sector B,Person,0.84,High,12:46:30,cam_4_49f66a.jpg,Pending,2026-09-10T12:46:30.199179,-1
+1877,CAM-02,Sector B,Vehicle,0.76,Medium,12:46:28,cam_2_91db9d.jpg,Pending,2026-09-10T12:46:28.828122,-1
+1876,CAM-01,Sector A,Person,0.51,High,12:46:27,cam_1_30d480.jpg,Pending,2026-09-10T12:46:27.881500,-1
+1875,CAM-04,Sector B,Person,0.82,High,12:46:27,cam_4_5e364e.jpg,Pending,2026-09-10T12:46:27.074360,-1
+1874,CAM-01,Sector A,Person,0.76,High,12:46:24,cam_1_375df7.jpg,Pending,2026-09-10T12:46:24.505851,-1
+1873,CAM-02,Sector B,Vehicle,0.72,Medium,12:46:24,cam_2_f71945.jpg,Pending,2026-09-10T12:46:24.182186,-1
+1872,CAM-04,Sector B,Vehicle,0.78,Medium,12:46:23,cam_4_fd5262.jpg,Pending,2026-09-10T12:46:23.878606,-1
+1871,CAM-01,Sector A,Person,0.65,High,12:46:21,cam_1_874b5d.jpg,Pending,2026-09-10T12:46:21.389839,-1
+1870,CAM-04,Sector B,Vehicle,0.88,Medium,12:46:20,cam_4_1ab48a.jpg,Pending,2026-09-10T12:46:20.846335,-1
+1869,CAM-02,Sector B,Vehicle,0.69,Medium,12:46:19,cam_2_c5b046.jpg,Pending,2026-09-10T12:46:19.072288,-1
+1868,CAM-01,Sector A,Person,0.58,High,12:46:18,cam_1_fc17ed.jpg,Pending,2026-09-10T12:46:18.273020,-1
+1867,CAM-04,Sector B,Vehicle,0.87,Medium,12:46:17,cam_4_6bc13a.jpg,Pending,2026-09-10T12:46:17.679912,-1
+1866,CAM-01,Sector A,Person,0.73,High,12:46:15,cam_1_1d1cee.jpg,Pending,2026-09-10T12:46:15.183511,-1
+1865,CAM-02,Sector B,Vehicle,0.78,Medium,12:46:14,cam_2_4e7fdf.jpg,Pending,2026-09-10T12:46:14.762327,-1
+1864,CAM-04,Sector B,Vehicle,0.82,Medium,12:46:14,cam_4_2323bf.jpg,Pending,2026-09-10T12:46:14.575672,-1
+1863,CAM-01,Sector A,Person,0.56,High,12:46:12,cam_1_822ef2.jpg,Pending,2026-09-10T12:46:12.166342,-1
+1862,CAM-04,Sector B,Person,0.8,High,12:46:11,cam_4_f056ab.jpg,Pending,2026-09-10T12:46:11.463878,-1
+1861,CAM-02,Sector B,Vehicle,0.84,Medium,12:46:11,cam_2_27e0b0.jpg,Pending,2026-09-10T12:46:11.394350,-1
+1860,CAM-01,Sector A,Person,0.53,High,12:46:09,cam_1_fc31de.jpg,Pending,2026-09-10T12:46:09.115935,-1
+1859,CAM-02,Sector B,Vehicle,0.86,Medium,12:46:08,cam_2_fd2662.jpg,Pending,2026-09-10T12:46:08.343956,-1
+1858,CAM-04,Sector B,Person,0.83,High,12:46:08,cam_4_dc9bc8.jpg,Pending,2026-09-10T12:46:08.263329,-1
+1857,CAM-04,Sector B,Person,0.73,High,12:46:05,cam_4_413a94.jpg,Pending,2026-09-10T12:46:05.208555,-1
+1856,CAM-02,Sector B,Vehicle,0.64,Medium,12:46:05,cam_2_570ab5.jpg,Pending,2026-09-10T12:46:05.177454,-1
+1855,CAM-04,Sector B,Person,0.7,High,12:46:02,cam_4_f5b6f5.jpg,Pending,2026-09-10T12:46:02.178079,-1
+1854,CAM-01,Sector A,Person,0.69,High,12:46:00,cam_1_1b1080.jpg,Pending,2026-09-10T12:46:00.896598,-1
+1853,CAM-02,Sector B,Vehicle,0.79,Medium,12:45:59,cam_2_bbcbf2.jpg,Pending,2026-09-10T12:45:59.265084,-1
+1852,CAM-04,Sector B,Vehicle,0.77,Medium,12:45:59,cam_4_cf15c0.jpg,Pending,2026-09-10T12:45:59.095912,-1
+1851,CAM-01,Sector A,Person,0.76,High,12:45:57,cam_1_07485f.jpg,Pending,2026-09-10T12:45:57.296749,-1
+1850,CAM-02,Sector B,Vehicle,0.77,Medium,12:45:56,cam_2_422a21.jpg,Pending,2026-09-10T12:45:56.214687,-1
+1849,CAM-04,Sector B,Person,0.85,High,12:45:55,cam_4_7ebc86.jpg,Pending,2026-09-10T12:45:55.990838,-1
+1848,CAM-01,Sector A,Person,0.67,High,12:45:54,cam_1_aafb1a.jpg,Pending,2026-09-10T12:45:54.067618,-1
+1847,CAM-02,Sector B,Vehicle,0.6,Medium,12:45:53,cam_2_3e14f6.jpg,Pending,2026-09-10T12:45:53.184123,-1
+1846,CAM-04,Sector B,Person,0.87,High,12:45:52,cam_4_c210ba.jpg,Pending,2026-09-10T12:45:52.912715,-1
+1845,CAM-01,Sector A,Person,0.53,High,12:45:51,cam_1_c9cc83.jpg,Pending,2026-09-10T12:45:51.001632,-1
+1844,CAM-02,Sector B,Vehicle,0.64,Medium,12:45:50,cam_2_aad1f9.jpg,Pending,2026-09-10T12:45:50.174888,-1
+1843,CAM-04,Sector B,Person,0.84,High,12:45:49,cam_4_134e98.jpg,Pending,2026-09-10T12:45:49.751756,-1
+1842,CAM-01,Sector A,Person,0.62,High,12:45:47,cam_1_1cc1a6.jpg,Pending,2026-09-10T12:45:47.631530,-1
+1841,CAM-04,Sector B,Vehicle,0.85,Medium,12:45:46,cam_4_00efdb.jpg,Pending,2026-09-10T12:45:46.750205,-1
+1840,CAM-02,Sector B,Vehicle,0.67,Medium,12:45:45,cam_2_d32fcb.jpg,Pending,2026-09-10T12:45:45.850938,-1
+1839,CAM-01,Sector A,Person,0.55,High,12:45:44,cam_1_157ba0.jpg,Pending,2026-09-10T12:45:44.431352,-1
+1838,CAM-04,Sector B,Person,0.87,High,12:45:43,cam_4_6c989c.jpg,Pending,2026-09-10T12:45:43.721870,-1
+1837,CAM-01,Sector A,Person,0.61,High,12:45:41,cam_1_6f4535.jpg,Pending,2026-09-10T12:45:41.205964,-1
+1836,CAM-02,Sector B,Vehicle,0.76,Medium,12:45:41,cam_2_97b73b.jpg,Pending,2026-09-10T12:45:41.025079,-1
+1835,CAM-04,Sector B,Person,0.83,High,12:45:40,cam_4_0ae870.jpg,Pending,2026-09-10T12:45:40.654175,-1
+1834,CAM-04,Sector B,Vehicle,0.81,Medium,12:45:37,cam_4_9395f7.jpg,Pending,2026-09-10T12:45:37.529117,-1
+1833,CAM-04,Sector B,Vehicle,0.81,Medium,12:45:34,cam_4_951947.jpg,Pending,2026-09-10T12:45:34.361849,-1
+1832,CAM-02,Sector B,Vehicle,0.72,Medium,12:45:33,cam_2_396939.jpg,Pending,2026-09-10T12:45:33.862479,-1
+1831,CAM-01,Sector A,Person,0.54,High,12:45:32,cam_1_3d00cd.jpg,Pending,2026-09-10T12:45:32.663715,-1
+1830,CAM-04,Sector B,Vehicle,0.79,Medium,12:45:31,cam_4_aca27c.jpg,Pending,2026-09-10T12:45:31.258743,-1
+1829,CAM-02,Sector B,Vehicle,0.59,Medium,12:45:30,cam_2_be7d5e.jpg,Pending,2026-09-10T12:45:30.608858,-1
+1828,CAM-01,Sector A,Person,0.77,High,12:45:29,cam_1_6c6a7b.jpg,Pending,2026-09-10T12:45:29.643245,-1
+1827,CAM-04,Sector B,Person,0.84,High,12:45:28,cam_4_adba1a.jpg,Pending,2026-09-10T12:45:28.065200,-1
+1826,CAM-02,Sector B,Vehicle,0.81,Medium,12:45:27,cam_2_0f37d9.jpg,Pending,2026-09-10T12:45:27.456129,-1
+1825,CAM-01,Sector A,Person,0.7,High,12:45:26,cam_1_1f548d.jpg,Pending,2026-09-10T12:45:26.490528,-1
+1824,CAM-04,Sector B,Vehicle,0.67,Medium,12:45:25,cam_4_3fea76.jpg,Pending,2026-09-10T12:45:25.053392,-1
+1823,CAM-02,Sector B,Vehicle,0.76,Medium,12:45:24,cam_2_03e48c.jpg,Pending,2026-09-10T12:45:24.256888,-1
+1822,CAM-01,Sector A,Person,0.57,High,12:45:23,cam_1_34c414.jpg,Pending,2026-09-10T12:45:23.457074,-1
+1821,CAM-04,Sector B,Person,0.76,High,12:45:21,cam_4_24ac02.jpg,Pending,2026-09-10T12:45:21.798527,-1
+1820,CAM-02,Sector B,Vehicle,0.81,Medium,12:45:21,cam_2_ecb094.jpg,Pending,2026-09-10T12:45:21.161962,-1
+1819,CAM-01,Sector A,Person,0.59,High,12:45:20,cam_1_237d76.jpg,Pending,2026-09-10T12:45:20.260253,-1
+1818,CAM-04,Sector B,Person,0.78,High,12:45:18,cam_4_948c6b.jpg,Pending,2026-09-10T12:45:18.621932,-1
+1817,CAM-01,Sector A,Person,0.55,High,12:45:17,cam_1_b0fc07.jpg,Pending,2026-09-10T12:45:17.072340,-1
+1816,CAM-04,Sector B,Person,0.82,High,12:45:15,cam_4_426a34.jpg,Pending,2026-09-10T12:45:15.438572,-1
+1815,CAM-02,Sector B,Vehicle,0.77,Medium,12:45:14,cam_2_40252f.jpg,Pending,2026-09-10T12:45:14.442801,-1
+1814,CAM-01,Sector A,Person,0.66,High,12:45:13,cam_1_1b0a8a.jpg,Pending,2026-09-10T12:45:13.930585,-1
+1813,CAM-04,Sector B,Person,0.76,High,12:45:12,cam_4_c7fb11.jpg,Pending,2026-09-10T12:45:12.273528,-1
+1812,CAM-02,Sector B,Vehicle,0.82,Medium,12:45:11,cam_2_a63309.jpg,Pending,2026-09-10T12:45:11.432399,-1
+1811,CAM-04,Sector B,Person,0.82,High,12:45:09,cam_4_76643f.jpg,Pending,2026-09-10T12:45:09.104253,-1
+1810,CAM-02,Sector B,Vehicle,0.77,Medium,12:45:08,cam_2_cb0250.jpg,Pending,2026-09-10T12:45:08.220994,-1
+1809,CAM-04,Sector B,Person,0.76,High,12:45:05,cam_4_810430.jpg,Pending,2026-09-10T12:45:05.978053,-1
+1808,CAM-02,Sector B,Vehicle,0.52,Medium,12:45:05,cam_2_754bae.jpg,Pending,2026-09-10T12:45:05.156747,-1
+1807,CAM-04,Sector B,Vehicle,0.86,Medium,12:45:02,cam_4_85bedf.jpg,Pending,2026-09-10T12:45:02.652653,-1
+1806,CAM-01,Sector A,Person,0.69,High,12:45:02,cam_1_8a3d51.jpg,Pending,2026-09-10T12:45:02.339399,-1
+1805,CAM-02,Sector B,Vehicle,0.79,Medium,12:45:00,cam_2_e3b689.jpg,Pending,2026-09-10T12:45:00.915563,-1
+1804,CAM-04,Sector B,Vehicle,0.81,Medium,12:44:59,cam_4_05a3c3.jpg,Pending,2026-09-10T12:44:59.604237,-1
+1803,CAM-01,Sector A,Person,0.77,High,12:44:59,cam_1_cac18a.jpg,Pending,2026-09-10T12:44:59.315662,-1
+1802,CAM-02,Sector B,Vehicle,0.76,Medium,12:44:56,cam_2_4f8afe.jpg,Pending,2026-09-10T12:44:56.623981,-1
+1801,CAM-04,Sector B,Vehicle,0.87,Medium,12:44:56,cam_4_276a77.jpg,Pending,2026-09-10T12:44:56.436663,-1
+1800,CAM-01,Sector A,Person,0.67,High,12:44:56,cam_1_e5c9e0.jpg,Pending,2026-09-10T12:44:56.286287,-1
+1799,CAM-04,Sector B,Person,0.8,High,12:44:53,cam_4_66b4ec.jpg,Pending,2026-09-10T12:44:53.200736,-1
+1798,CAM-01,Sector A,Person,0.64,High,12:44:53,cam_1_c7dc72.jpg,Pending,2026-09-10T12:44:53.078561,-1
+1797,CAM-04,Sector B,Person,0.81,High,12:44:50,cam_4_a4df11.jpg,Pending,2026-09-10T12:44:50.086086,-1
+1796,CAM-01,Sector A,Person,0.65,High,12:44:49,cam_1_6f2b11.jpg,Pending,2026-09-10T12:44:49.987351,-1
+1795,CAM-02,Sector B,Vehicle,0.6,Medium,12:44:49,cam_2_aeff4b.jpg,Pending,2026-09-10T12:44:49.139739,-1
+1794,CAM-04,Sector B,Person,0.79,High,12:44:46,cam_4_f196ff.jpg,Pending,2026-09-10T12:44:46.844965,-1
+1793,CAM-01,Sector A,Person,0.61,High,12:44:46,cam_1_8365ff.jpg,Pending,2026-09-10T12:44:46.588057,-1
+1792,CAM-02,Sector B,Vehicle,0.65,Medium,12:44:45,cam_2_7e64c7.jpg,Pending,2026-09-10T12:44:45.038974,-1
+1791,CAM-04,Sector B,Person,0.74,High,12:44:43,cam_4_f56051.jpg,Pending,2026-09-10T12:44:43.811175,-1
+1790,CAM-02,Sector B,Vehicle,0.71,Medium,12:44:40,cam_2_6b96d8.jpg,Pending,2026-09-10T12:44:40.956472,-1
+1789,CAM-04,Sector B,Person,0.75,High,12:44:40,cam_4_6cd3e4.jpg,Pending,2026-09-10T12:44:40.646885,-1
+1788,CAM-01,Sector A,Person,0.51,High,12:44:38,cam_1_4813c6.jpg,Pending,2026-09-10T12:44:38.455318,-1
+1787,CAM-02,Sector B,Vehicle,0.72,Medium,12:44:37,cam_2_39565f.jpg,Pending,2026-09-10T12:44:37.809657,-1
+1786,CAM-04,Sector B,Person,0.76,High,12:44:37,cam_4_fd1855.jpg,Pending,2026-09-10T12:44:37.378314,-1
+1785,CAM-01,Sector A,Person,0.78,High,12:44:35,cam_1_d33ef6.jpg,Pending,2026-09-10T12:44:35.284150,-1
+1784,CAM-04,Sector B,Vehicle,0.76,Medium,12:44:34,cam_4_320ab5.jpg,Pending,2026-09-10T12:44:34.112280,-1
+1783,CAM-01,Sector A,Person,0.56,High,12:44:32,cam_1_80b997.jpg,Pending,2026-09-10T12:44:32.201220,-1
+1782,CAM-02,Sector B,Vehicle,0.66,Medium,12:44:31,cam_2_6865da.jpg,Pending,2026-09-10T12:44:31.411144,-1
+1781,CAM-04,Sector B,Person,0.84,High,12:44:31,cam_4_d8723a.jpg,Pending,2026-09-10T12:44:31.039969,-1
+1780,CAM-01,Sector A,Person,0.53,High,12:44:29,cam_1_804c96.jpg,Pending,2026-09-10T12:44:29.172201,-1
+1779,CAM-02,Sector B,Vehicle,0.72,Medium,12:44:28,cam_2_409119.jpg,Pending,2026-09-10T12:44:28.390345,-1
+1778,CAM-04,Sector B,Vehicle,0.78,Medium,12:44:27,cam_4_bee1e3.jpg,Pending,2026-09-10T12:44:27.923028,-1
+1777,CAM-01,Sector A,Person,0.62,High,12:44:26,cam_1_fd943c.jpg,Pending,2026-09-10T12:44:26.012970,-1
+1776,CAM-02,Sector B,Vehicle,0.72,Medium,12:44:25,cam_2_9eaf82.jpg,Pending,2026-09-10T12:44:25.368041,-1
+1775,CAM-04,Sector B,Vehicle,0.86,Medium,12:44:24,cam_4_770389.jpg,Pending,2026-09-10T12:44:24.733075,-1
+1774,CAM-01,Sector A,Person,0.57,High,12:44:22,cam_1_286c71.jpg,Pending,2026-09-10T12:44:22.915584,-1
+1773,CAM-02,Sector B,Vehicle,0.72,Medium,12:44:22,cam_2_a9f776.jpg,Pending,2026-09-10T12:44:22.271432,-1
+1772,CAM-04,Sector B,Vehicle,0.81,Medium,12:44:21,cam_4_20f843.jpg,Pending,2026-09-10T12:44:21.676150,-1
+1771,CAM-01,Sector A,Person,0.56,High,12:44:19,cam_1_ee60ab.jpg,Pending,2026-09-10T12:44:19.747602,-1
+1770,CAM-04,Sector B,Vehicle,0.81,Medium,12:44:18,cam_4_9bfb89.jpg,Pending,2026-09-10T12:44:18.508489,-1
+1769,CAM-02,Sector B,Vehicle,0.73,Medium,12:44:17,cam_2_ed4367.jpg,Pending,2026-09-10T12:44:17.725144,-1
+1768,CAM-04,Sector B,Vehicle,0.79,Medium,12:44:15,cam_4_aa7fd3.jpg,Pending,2026-09-10T12:44:15.289615,-1
+1767,CAM-02,Sector B,Vehicle,0.77,Medium,12:44:13,cam_2_4ff521.jpg,Pending,2026-09-10T12:44:13.018114,-1
+1766,CAM-04,Sector B,Vehicle,0.8,Medium,12:44:12,cam_4_d7ad81.jpg,Pending,2026-09-10T12:44:12.142805,-1
+1765,CAM-01,Sector A,Person,0.6,High,12:44:10,cam_1_824b00.jpg,Pending,2026-09-10T12:44:10.732312,-1
+1764,CAM-04,Sector B,Person,0.82,High,12:44:09,cam_4_c55631.jpg,Pending,2026-09-10T12:44:09.001234,-1
+1763,CAM-01,Sector A,Person,0.78,High,12:44:07,cam_1_8dcdc1.jpg,Pending,2026-09-10T12:44:07.692703,-1
+1762,CAM-02,Sector B,Vehicle,0.77,Medium,12:44:06,cam_2_25337b.jpg,Pending,2026-09-10T12:44:06.187617,-1
+1761,CAM-04,Sector B,Vehicle,0.83,Medium,12:44:05,cam_4_3a6c24.jpg,Pending,2026-09-10T12:44:05.903192,-1
+1760,CAM-01,Sector A,Person,0.57,High,12:44:04,cam_1_552246.jpg,Pending,2026-09-10T12:44:04.527501,-1
+1759,CAM-02,Sector B,Vehicle,0.73,Medium,12:44:03,cam_2_d7ba87.jpg,Pending,2026-09-10T12:44:03.042026,-1
+1758,CAM-04,Sector B,Person,0.82,High,12:44:02,cam_4_25bf00.jpg,Pending,2026-09-10T12:44:02.626999,-1
+1757,CAM-01,Sector A,Person,0.58,High,12:44:01,cam_1_6d3d8a.jpg,Pending,2026-09-10T12:44:01.365858,-1
+1756,CAM-02,Sector B,Vehicle,0.8,Medium,12:44:00,cam_2_e554e7.jpg,Pending,2026-09-10T12:44:00.011108,-1
+1755,CAM-04,Sector B,Person,0.76,High,12:43:59,cam_4_f133a9.jpg,Pending,2026-09-10T12:43:59.407145,-1
+1754,CAM-01,Sector A,Person,0.64,High,12:43:58,cam_1_77b99b.jpg,Pending,2026-09-10T12:43:58.357652,-1
+1753,CAM-02,Sector B,Vehicle,0.81,Medium,12:43:56,cam_2_c91ca0.jpg,Pending,2026-09-10T12:43:56.892314,-1
+1752,CAM-04,Sector B,Vehicle,0.76,Medium,12:43:56,cam_4_d6ad1e.jpg,Pending,2026-09-10T12:43:56.292135,-1
+1751,CAM-01,Sector A,Person,0.56,High,12:43:55,cam_1_3e7dfb.jpg,Pending,2026-09-10T12:43:55.150499,-1
+1750,CAM-02,Sector B,Vehicle,0.67,Medium,12:43:53,cam_2_9acb80.jpg,Pending,2026-09-10T12:43:53.820946,-1
+1749,CAM-04,Sector B,Person,0.84,High,12:43:53,cam_4_66344d.jpg,Pending,2026-09-10T12:43:53.051941,-1
+1748,CAM-01,Sector A,Person,0.53,High,12:43:52,cam_1_761c23.jpg,Pending,2026-09-10T12:43:52.138920,-1
+1747,CAM-04,Sector B,Vehicle,0.78,Medium,12:43:49,cam_4_fb1ffe.jpg,Pending,2026-09-10T12:43:49.819341,-1
+1746,CAM-02,Sector B,Vehicle,0.72,Medium,12:43:47,cam_2_158308.jpg,Pending,2026-09-10T12:43:47.233728,-1
+1745,CAM-04,Sector B,Vehicle,0.86,Medium,12:43:46,cam_4_caf669.jpg,Pending,2026-09-10T12:43:46.691710,-1
+1744,CAM-02,Sector B,Vehicle,0.82,Medium,12:43:44,cam_2_fdbbaf.jpg,Pending,2026-09-10T12:43:44.010615,-1
+1743,CAM-04,Sector B,Vehicle,0.83,Medium,12:43:43,cam_4_950e56.jpg,Pending,2026-09-10T12:43:43.614704,-1
+1742,CAM-01,Sector A,Person,0.63,High,12:43:43,cam_1_aac341.jpg,Pending,2026-09-10T12:43:43.267965,-1
+1741,CAM-04,Sector B,Vehicle,0.82,Medium,12:43:40,cam_4_2d3aae.jpg,Pending,2026-09-10T12:43:40.524121,-1
+1740,CAM-01,Sector A,Person,0.7,High,12:43:40,cam_1_813272.jpg,Pending,2026-09-10T12:43:40.246011,-1
+1739,CAM-02,Sector B,Vehicle,0.67,Medium,12:43:38,cam_2_dec805.jpg,Pending,2026-09-10T12:43:38.904945,-1
+1738,CAM-04,Sector B,Vehicle,0.8,Medium,12:43:37,cam_4_b1bf2e.jpg,Pending,2026-09-10T12:43:37.446622,-1
+1737,CAM-01,Sector A,Person,0.66,High,12:43:37,cam_1_0c9406.jpg,Pending,2026-09-10T12:43:37.124591,-1
+1736,CAM-02,Sector B,Vehicle,0.7,Medium,12:43:34,cam_2_c4d6e5.jpg,Pending,2026-09-10T12:43:34.378138,-1
+1735,CAM-04,Sector B,Person,0.83,High,12:43:34,cam_4_967b4f.jpg,Pending,2026-09-10T12:43:34.347274,-1
