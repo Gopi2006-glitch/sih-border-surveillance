@@ -234,8 +234,8 @@ with st.sidebar:
         ],
         label_visibility="collapsed",
     )
+    st.markdown("<hr style='border:0; border-top:1px solid #1e293b; margin:16px 0 10px 0;'>", unsafe_allow_html=True)
 
-    st.markdown("<hr style='border:
     st.markdown("<b style='color:#38bdf8; font-size:0.8rem;'>OPERATOR DUTY LOG</b>", unsafe_allow_html=True)
     with st.form("quick_duty_log_form"):
         op_id = st.text_input("Call-Sign", value="Operator-1", label_visibility="collapsed", placeholder="Call-Sign")
